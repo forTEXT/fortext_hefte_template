@@ -1,0 +1,64 @@
+## Legen Sie hier die für die Publiaktion relevanten Metadaten ab:
+# Titel, Autor*innen inkl. Metadaten, Affiliaitons
+
+#fügen Sie hier den Titel ihrer Lehrveranstaltung ein
+title: Titel der Lehrveranstaltung
+#Zählen Sie hier die Autor*innen des Beitrags auf.
+#Sollte es sich nur um eine Person handeln, löschen sie die 2. Aufzählund, die mit "- affiliation: 1 beginnt"
+author:
+- affiliation: 1
+  email: Mailadresse
+  given-names: Vorname1
+  orcid: Orcid oder Zeile löschen wenn nicht vornanden
+  surname: Nachname1
+- affiliation: 2
+  email: Mailadresse2
+  given-names: Vorname2
+  surname: Nachname2
+- affiliation: 1
+  email: Mailadresse
+  given-names: Vorname3
+  orcid: Orcid oder Zeile löschen wenn nicht vornanden
+  surname: Nachname3
+
+# für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+affiliation:
+  id: 1
+  organization: Affiliation1
+  id: 2
+  organization: Affiliation2
+
+# Zählen Sie hier die Autor*innen auf
+copyright_:
+- holder:
+  - Vorname1 Nachname1
+  - Vorname2 Nachname2
+  statement: '>-  © 2019 The authors. Published under a CC BY-SA 4.0 DEED license.'
+  year: '2025'
+
+
+# Weitere Metadaten
+
+keywords:
+va_type:
+
+
+# keine weitere Bearbeitung notwendig
+issuetitle: Textnnotation in der Hochschullehre
+journal:
+- container-title: forTEXT
+  publisher-loc: Darmstadt
+  publisher-name: Universitäts- und Landesbibliothek Darmstadt
+  title: forTEXT
+license:
+- link: https://creativecommons.org/licenses/by-sa/4.0/
+  text: '>-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
+    International License.'
+  type: open-access
+container-title: forTEXT Heft
+type: article-journal
+volume: 
+issue:
+DOI:
+article:
+  DOI: 
