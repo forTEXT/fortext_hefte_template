@@ -2,37 +2,32 @@
 # Titel, Autor*innen inkl. Metadaten, Affiliaitons
 
 #fügen Sie hier den Titel ihrer Lehrveranstaltung ein
-title: Titel der Lehrveranstaltung
+title: Textannotation mit forTEXT
 #Zählen Sie hier die Autor*innen des Beitrags auf.
 #Sollte es sich nur um eine Person handeln, löschen sie die 2. Aufzählund, die mit "- affiliation: 1 beginnt"
 author:
 - affiliation: 1
-  email: Mailadresse
-  given-names: Vorname1
-  orcid: Orcid oder Zeile löschen wenn nicht vornanden
-  surname: Nachname1
+  email: mari.akazawa@tu-darmstadt.de
+  given-names: Mari
+  surname: Akazawa
 - affiliation: 2
-  email: Mailadresse2
-  given-names: Vorname2
-  surname: Nachname2
-- affiliation: 1
-  email: Mailadresse
-  given-names: Vorname3
-  orcid: Orcid oder Zeile löschen wenn nicht vornanden
-  surname: Nachname3
+  email: technikredaktion@fortext-hefte.de
+  given-names: Janis
+  surname: von Keitz
+
 
 # für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
 affiliation:
   id: 1
-  organization: Affiliation1
+  organization: Technische Universität Darmstadt
   id: 2
-  organization: Affiliation2
+  organization: FH Darmstadt
 
 # Zählen Sie hier die Autor*innen auf
 copyright_:
 - holder:
-  - Vorname1 Nachname1
-  - Vorname2 Nachname2
+  - Mari Akazawa
+  - Janis von Keitz
   statement: '>-  © 2019 The authors. Published under a CC BY-SA 4.0 DEED license.'
   year: '2025'
 
@@ -40,14 +35,14 @@ copyright_:
 # Weitere Metadaten
 
 tags: #hier tragen sie 5 keywords ein
-  - keyword1
-  - keyword2
+  - Textannotation
+  - Selbestlernen
   - keyword3
   - keyword4
   - keyword5
 
-va_type: # Veranstaltungstyp
-no_type: # Anzahl der Sitzungen in Tagen 
+va_type: Sitzungen
+no_type: 4
 
 
 # keine weitere Bearbeitung notwendig
