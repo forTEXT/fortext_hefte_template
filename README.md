@@ -104,6 +104,7 @@ Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markd
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
 
+
 - [Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”](#informationen-zu-ihrer-einreichung-zum-thema-textannotation-in-der-hochschullehre)
   - [Übersicht über das Repository](#übersicht-über-das-repository)
       - [Vorlagen](#vorlagen)
