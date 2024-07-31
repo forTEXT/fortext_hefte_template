@@ -104,15 +104,15 @@ Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markd
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
 * [1. Einführungstext](#1-einführungstext)
- * [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
- * [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
- * [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+  * [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
+  * [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
+  * [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
 * [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
 * [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
 * [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
 * [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
- * [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
- * [5.2. Studierende](#52-studierende)
+  * [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
+  * [5.2. Studierende](#52-studierende)
 
 
 
