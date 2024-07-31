@@ -1,6 +1,9 @@
 
 # Einführungstext
 
-# Sitzungsbeschreibungen
+# Beschreibung des Gesamtablaufs
 
-# Reflexion der eigenen Lehre
+# Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema
+
+
+# Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen

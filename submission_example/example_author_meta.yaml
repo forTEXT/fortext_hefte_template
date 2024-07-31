@@ -2,18 +2,15 @@
 # Titel, Autor*innen inkl. Metadaten, Affiliaitons
 
 #fügen Sie hier den Titel ihrer Lehrveranstaltung ein
-title: Textannotation mit forTEXT
+title: 'Selbststudieneinheit "Textannotation (mit CATMA)"'
 #Zählen Sie hier die Autor*innen des Beitrags auf.
 #Sollte es sich nur um eine Person handeln, löschen sie die 2. Aufzählund, die mit "- affiliation: 1 beginnt"
 author:
 - affiliation: 1
-  email: mari.akazawa@tu-darmstadt.de
-  given-names: Mari
-  surname: Akazawa
-- affiliation: 2
-  email: technikredaktion@fortext-hefte.de
-  given-names: Janis
-  surname: von Keitz
+  email: fortext-hefte.de
+  given-names: fortext
+  orcid:
+  surname: hefte
 
 
 # für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
@@ -26,22 +23,21 @@ affiliation:
 # Zählen Sie hier die Autor*innen auf
 copyright_:
 - holder:
-  - Mari Akazawa
-  - Janis von Keitz
-  statement: '>-  © 2019 The authors. Published under a CC BY-SA 4.0 DEED license.'
+  - forTEXT
+  statement: '>-  © 2019 The authors. Published under a CC BY license.'
   year: '2025'
 
 
 # Weitere Metadaten
 
 tags: #hier tragen sie 5 keywords ein
-  - Textannotation
-  - Selbestlernen
+  - keyword1
+  - keyword2
   - keyword3
   - keyword4
   - keyword5
 
-va_type: 4 Sitzungen eines Seminars
+va_type: Selbststudieneinheit
 no_type: 4
 
 
@@ -63,4 +59,4 @@ volume: 2
 issue: 13
 DOI:
 article:
-  DOI: 
+  doi: 10.48694/abc 
