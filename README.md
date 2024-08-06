@@ -30,7 +30,6 @@ Verwenden Sie...
 
 Für Anhänge erstellen Sie einen Ordner "Anhänge", in welchen Sie alle weiteren Dateien im PDF-Format legen.
 
-
 #### Beispiele
 
 Zu den leeren Vorlagen finden Sie im Ordner [`submission_example`](submission_example) die entsprechenden ausgefüllten Beispiele.
