@@ -1,10 +1,15 @@
 ## Legen Sie hier die für die Publiaktion relevanten Metadaten ab:
-# Titel, Autor*innen inkl. Metadaten, Affiliaitons
+# Titel, Autor*innen inkl. Metadaten, Affiliaitons, Keywords, Information zum Veranstaltungstypen sowie Anzahl der Sitzungen
 
 #fügen Sie hier den Titel ihrer Lehrveranstaltung ein
 title: Titel der Lehrveranstaltung
-#Zählen Sie hier die Autor*innen des Beitrags auf.
-#Sollte es sich nur um eine Person handeln, löschen sie die 2. Aufzählund, die mit "- affiliation: 1 beginnt"
+
+
+# Zählen Sie hier die Autor*innen des Beitrags auf.
+# Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
+# Für jede Affiliation wird eine ID gesetzt, zu der sie im nächsten Schritt den Namen der Affiliation hinzufügen
+# für AutorInnen ohne Affiliation bleibt das Feld bestehen, es wird aber keine Zahl gesetzt 
+
 author:
 - affiliation: 1
   email: Mailadresse
@@ -46,8 +51,8 @@ tags: #hier tragen sie 5 keywords ein
   - keyword4
   - keyword5
 
-va_type: # Veranstaltungstyp
-no_type: # Anzahl der Sitzungen in Tagen 
+va_type: # Veranstaltungstyp z.B. Workshop, Mehrere Sitzungen einer Lehrveranstaltung, Semesterplan, Hackathon etc.
+no_type: # Anzahl der Sitzungen in Tagen z.B. eintägiger Workshop == 1 etc.
 
 
 # keine weitere Bearbeitung notwendig

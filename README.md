@@ -1,5 +1,7 @@
 # Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”
 
+Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstellt. Den Ordner [`submission_template`](submission_template) können Sie als Vorlage nutzen, indem Sie diesen herunterladen und mit Ihren Inhalten und Informationen "befüllen". Alle notwendigen Dateien finden Sie dort in den vorgesehenen Formaten. Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite](https://www.fortext-hefte.de/site/guidelines/) unter Guidelines oder [hier](#guidelines---inhalt) in dieser README-Datei.
+
 * [Übersicht über das Repository](#übersicht-über-das-repository)
   * [Vorlagen](#vorlagen)
   * [Beispiele](#beispiele)
@@ -22,25 +24,26 @@ In diesem Repository finden Sie Vorlagen und Beispiele für die benötigten Best
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
 * für den Beitragstext die Datei [`text.md`](submission_template/text.md),
-* für den Ablaufplan [`tabelle.md`](submission_template/tabelle.md) oder [`tabelle.csv`],(submission_template/tabelle.csv) (abhängig, ob Sie mit CSV oder Markdown arbeiten möchten),
+* für den Ablaufplan [`tabelle.md`](submission_template/tabelle.md) oder [`tabelle.csv`](submission_template/tabelle.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
 * für die Bibiographie [`bibliography.json`](submission_template/bibliography.json),
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
 
+Für Anhänge erstellen Sie einen Ordner "Anhänge", in welchen Sie alle weiteren Dateien im PDF-Format legen.
+
+
 #### Beispiele
 
-Zu den leeren Vorlagen finden Sie im Ordner [`submission_example`](submission_example)  die entsprechenden ausgefüllten Beispiele.
+Zu den leeren Vorlagen finden Sie im Ordner [`submission_example`](submission_example) die entsprechenden ausgefüllten Beispiele.
 Enthalten sind beispielhaft...
 * ein Beitragstext ([`example_text.md`](submission_example/example_text.md)), 
-* ein Ablaufplan ([`example_table.md`](submission_example/example_table.md) oder [`example_table.csv`](submission_example/example_table.csv)),
+* ein Ablaufplan (als Markdown-Datei [`example_table.md`](submission_example/example_table.md) oder als CSV-Datei [`example_table.csv`](submission_example/example_table.csv)),
 * eine Bibliographie ([`example_bib.json`](submission_example/example_bib.json)),
 * Autor*innen-Metadaten ([`example_author_meta.yaml`](submission_example/example_author_meta.yaml)). 
 
-Wie diese Beispieleinreichung als fertiger Beitrag aussehen könnte sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).
+Wie diese Beispieleinreichung als fertiger Beitrag aussehen könnte sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
 
 
 ## Formate und Formatierungen
-
-Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstellt. Den Ordner [`submission_template`](submission_template) können Sie als Vorlage nutzen, indem Sie diesen herunterladen und mit Ihren Inhalten und Informationen "befüllen". Alle notwendigen Dateien finden Sie dort in den vorgesehenen Formaten. Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite](https://www.fortext-hefte.de/site/guidelines/) unter Guidelines oder [hier](#guidelines---inhalt) in dieser README-Datei.
 
 #### Beitrag
 
@@ -174,7 +177,7 @@ Unter Punkt [4. Sitzungsbeschreibungen](#4-detaillierte-darstellung-der-sitzunge
 Gehen Sie in diesem Abschnitt auf die Lerninhalte und die zu vermittelnden Kompetenzen in den Einheiten ihres Lehrkonzepts ein.
 
 
-_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Ausführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen." 
+_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Ausführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen."    
  
 _Beispiel 2:_ "Die Selbststudieneinheit zielt darauf ab, die Lerninhalte Narrationstheorie und die Großgattung Prosa, die Erzählung "Krambambuli" von Marie von Ebner-Eschenbach sowie die Einführung und Anwendung der literaturwissenschaftlichen Methode des Annotierens, sowohl manuell analog als auch manuell digital mit dem Annotationstool CATMA zu vermitteln. Zudem beinhaltet die Einheit die Einzeltextanalyse der Primärlektüre mit einem besonderen Fokus auf die Figurencharakterisierung. [...]"
 
@@ -202,29 +205,29 @@ Hinweis zur Formatierung: Aufzählungselemente sind durch ein “;” zu trennen
 
 **Übersicht & Erklärung der Spaltennamen:**
 
-* <ins>Spalte 1 (Einheit)</ins>
+* <ins>Spalte 1 (Einheit)</ins>  
 Dient zur Gliederung ihrer Veranstaltung. Die Nummerierung erfolgt in Abhängigkeit von ihrem eingereichten Lehrkonzept. Bei Syllabi schlagen wir vor, für jede Sitzung eine Nummer zu vergeben, bei Workshops je nach Dauer/Länge können Sie die Start- und Endzeit oder die Dauer von Einheiten mit bestimmten Fokusthemen angeben. 
 _Beispiele:_ “1” für Sitzungsnummer 1 eines Semesterplans, “ca. 1 Stunde” für eine Einheit ihres Workshops oder “10:00 - 12:00 Uhr”
-* <ins>Spalte 2 (Modus)</ins>
+* <ins>Spalte 2 (Modus)</ins>  
 Geben Sie an, ob die Sitzung/Einheit synchron oder asynchron konzipiert ist und, ob es sich um eine Online- oder Präsenzsitzung handelt
 _Beispiele:_ “synchron, online” 
-* <ins>Spalte 3 (Thema)</ins>
+* <ins>Spalte 3 (Thema)</ins>  
 Nenne Sie einen Titel der Sitzung/Einheit
 _Beispiele:_ “Einführungssession”, “Einführung in CATMA”, “Lektürediskussion”
-* <ins>Spalte 4 (Inhalt)</ins>
+* <ins>Spalte 4 (Inhalt)</ins>  
 Zählen Sie die Inhalte auf, die in der Sitzung behandelt werden (z.B. Einführung in ein Tool, Diskussion von Lektüre, Projektpräsentation etc.)
 _Beispiele:_ “Organisatorisches, Theoretische Einführung in CATMA”, “Seminarlektüre @autorcitekey”,“Einführung zum Thema Figurenanalyse mit Slides @slidesimAnhang”, “Annotationstool CATMA: www.catma.de”
   * _Hinweis:_ Bitte fügen Sie die dafür relevanten Metadaten wie zu Präsentationen auch in das Literaturverzeichnis hinzu und referenzieren Sie den entsprechenden Citekey bei der Aufzählung. Wenn Sie beispielsweise optional weitere Dokumente einreichen, müssen diese auch in ihrem Literaturverzeichnis hinterlegt sein.
-* <ins>Spalte 5 (Lern-)ziel(e))</ins>
+* <ins>Spalte 5 (Lern-)ziel(e))</ins>  
 Nennen Sie das Lernziel der SItzung/Einheit
 _Beispiele:_ “Visualisierungsmöglichkeiten von CATMA lernen”, “Texte im Tool CATMA hochladen”, Grundlagen der Figurenanalyse verstehen und anwenden”
-* <ins>Spalte 6 (Vorbereitung)</ins>
+* <ins>Spalte 6 (Vorbereitung)</ins>  
 Zählen Sie die Inhalte auf, die die Studierenden bis zu dieser Sitzung/Einheit vorbereiten sollen (Recherche, Lesen, Videos anschauen). Benennen Sie diese Inhalte explizit, indem sie Citekeys aufführen 
 Beispiele: “Lesen des Kapitels 2.3. zu Narratologie in @fortextetal2026”, “Kontoeinrichtung auf catma\.de” 
-* <ins>Spalte 7 (Für Lehrende)</ins>
+* <ins>Spalte 7 (Für Lehrende)</ins>  
 Zählen Sie Inhalte wie (weiterführende) Literatur oder Webseiten auf, die für Lehrende für diese Sitzung relevant sind. Zählen Sie diese durch Citekeys und/oder verlinkte Schlagwörter nach Markdownsyntax auf.
 Beispiele: “@fortext2026, @hander2026”, “\[Podiumsdiskussion](www.annolehren345)”
-* <ins>Spalte 8 (Abgabe/Aufgabe)</ins>
+* <ins>Spalte 8 (Abgabe/Aufgabe)</ins>  
 Beschreiben Sie die Auf- bzw. Abgabe, die in dieser Sitzung/Einheit aufgetragen wird und nennen Sie die Sitzungsnummer/-einheit, zu welcher diese fällig ist. Nummerieren Sie die Abgabe/Aufgabe gegebenenfalls.
 Die ausführliche Aufgabenstellung können Sie unter Punkt 4 (“Sitzungsbeschreibungen”) in der detaillierten Sitzungsbeschreibung aufführen.
 _Beispiele:_ “Abgabe 1: Textzusammenfassung bis Sitzung 9”
@@ -241,7 +244,7 @@ Insgesamt sollte dieser Abschnitt nicht mehr als 2500 Wörter enthalten. Jede Si
 _Beispiel 1:_
 Einführungssitzung:
 In der Einführungssitzung wird den Studierenden der Seminarplan vorgestellt. Diese Sitzung dient insbesondere organisatorischen Zwecken. 
-Für die nächste Sitzung (Nr. 2) sollen die Studierenden die Lerneinheit “Digitale Annotation mit CATMA lehren” vorbereiten [@schumacherLerneinheitDigitaleAnnotation2020].
+Für die nächste Sitzung (Nr. 2) sollen die Studierenden die Lerneinheit “Digitale Annotation mit CATMA lehren” vorbereiten [@schumacherLerneinheitDigitaleAnnotation2020].  
 
 
 
