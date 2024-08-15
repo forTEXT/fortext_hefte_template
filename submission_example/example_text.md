@@ -51,6 +51,3 @@ Außerhalb des Grundkurskontextes könnte ich zudem einen kürzeren Text zur Ann
 Die Unterstützung durch eine\*n Tutor\*in erwies sich als sehr hilfreich, insbesondere bei technischen Fragen und individuellen Problemen. Der/Die Tutor\*in konnten direkt vor Ort oder online Hilfestellungen geben und die Studierenden bei der Anwendung von CATMA unterstützen. In Bezug auf das Feedback der Studierenden wurde deutlich, dass sie die Mischung aus synchronen und asynchronen Einheiten sowie die praxisorientierte Anwendung der Theorie schätzten.
 Zusammenfassend lässt sich sagen, dass das Lehrkonzept in seiner derzeitigen Form weitgehend erfolgreich war, jedoch durch einige Anpassungen in der Struktur und im Ablauf weiter optimiert werden kann.
 
-# Referenzen
-
-# Glossar
