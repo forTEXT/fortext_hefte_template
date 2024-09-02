@@ -1,10 +1,15 @@
-## Legen Sie hier die für die Publiaktion relevanten Metadaten ab:
-# Titel, Autor*innen inkl. Metadaten, Affiliaitons
+## Legen Sie hier die für die Publikation relevanten Metadaten ab:
+# Titel, Autor*innen inkl. Metadaten, Affiliations
 
 #fügen Sie hier den Titel ihrer Lehrveranstaltung ein
 title: 'Selbststudieneinheit "Textannotation (mit CATMA)"'
-#Zählen Sie hier die Autor*innen des Beitrags auf.
-#Sollte es sich nur um eine Person handeln, löschen sie die 2. Aufzählund, die mit "- affiliation: 1 beginnt"
+
+
+# Zählen Sie hier die Autor*innen des Beitrags auf.
+# Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
+# Für jede Affiliation wird eine ID gesetzt, zu der sie im nächsten Schritt den Namen der Affiliation hinzufügen
+# für AutorInnen ohne Affiliation bleibt das Feld bestehen, es wird aber keine Zahl gesetzt.
+
 author:
 - affiliation: 1
   email: fortext-hefte.de
@@ -42,7 +47,7 @@ no_type: 4
 
 
 # keine weitere Bearbeitung notwendig
-issuetitle: Textnnotation in der Hochschullehre
+issuetitle: Textannotation in der Hochschullehre
 journal:
 - container-title: forTEXT
   publisher-loc: Darmstadt
@@ -58,6 +63,5 @@ type: article-journal
 volume: 2
 issue: 13
 date: 
-DOI:
 article:
   doi: 10.48694/abc 

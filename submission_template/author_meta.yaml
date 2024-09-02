@@ -1,5 +1,5 @@
-## Legen Sie hier die für die Publiaktion relevanten Metadaten ab:
-# Titel, Autor*innen inkl. Metadaten, Affiliaitons, Keywords, Information zum Veranstaltungstypen sowie Anzahl der Sitzungen
+## Legen Sie hier die für die Publikation relevanten Metadaten ab:
+# Titel, Autor*innen inkl. Metadaten, Affiliations, Keywords, Information zum Veranstaltungstypen sowie Anzahl der Sitzungen
 
 #fügen Sie hier den Titel ihrer Lehrveranstaltung ein
 title: Titel der Lehrveranstaltung
@@ -14,7 +14,7 @@ author:
 - affiliation: 1
   email: Mailadresse
   given-names: Vorname1
-  orcid: Orcid oder Zeile löschen wenn nicht vornanden
+  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
   surname: Nachname1
 - affiliation: 2
   email: Mailadresse2
@@ -23,10 +23,10 @@ author:
 - affiliation: 1
   email: Mailadresse
   given-names: Vorname3
-  orcid: Orcid oder Zeile löschen wenn nicht vornanden
+  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
   surname: Nachname3
 
-# für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+# Für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
 affiliation:
   id: 1
   organization: Affiliation1
@@ -56,7 +56,7 @@ no_type: # Anzahl der Sitzungen in Tagen z.B. eintägiger Workshop == 1 etc.
 
 
 # keine weitere Bearbeitung notwendig
-issuetitle: Textnnotation in der Hochschullehre
+issuetitle: Textannotation in der Hochschullehre
 journal:
 - container-title: forTEXT
   publisher-loc: Darmstadt
