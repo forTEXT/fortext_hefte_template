@@ -5,6 +5,13 @@
 title: Titel der Lehrveranstaltung
 
 
+# Für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+affiliation:
+  id: 1
+  organization: Affiliation1
+  id: 2
+  organization: Affiliation2
+
 # Zählen Sie hier die Autor*innen des Beitrags auf.
 # Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
 # Für jede Affiliation wird eine ID gesetzt, zu der sie im nächsten Schritt den Namen der Affiliation hinzufügen
@@ -26,12 +33,6 @@ author:
   orcid: Orcid oder Zeile löschen wenn nicht vorhanden
   surname: Nachname3
 
-# Für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
-affiliation:
-  id: 1
-  organization: Affiliation1
-  id: 2
-  organization: Affiliation2
 
 # Zählen Sie hier die Autor*innen auf
 copyright_:

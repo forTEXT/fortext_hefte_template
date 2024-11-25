@@ -5,6 +5,14 @@
 title: 'Selbststudieneinheit "Textannotation (mit CATMA)"'
 
 
+
+# für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+affiliation:
+  id: 1
+  organization: Technische Universität Darmstadt
+  id: 2
+  organization: FH Darmstadt
+
 # Zählen Sie hier die Autor*innen des Beitrags auf.
 # Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
 # Für jede Affiliation wird eine ID gesetzt, zu der sie im nächsten Schritt den Namen der Affiliation hinzufügen
@@ -16,14 +24,6 @@ author:
   given-names: fortext
   orcid:
   surname: hefte
-
-
-# für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
-affiliation:
-  id: 1
-  organization: Technische Universität Darmstadt
-  id: 2
-  organization: FH Darmstadt
 
 # Zählen Sie hier die Autor*innen auf
 copyright_:
