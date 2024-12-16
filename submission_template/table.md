@@ -1,23 +1,23 @@
 | Sitzungsnummer 	| Modus              	| Thema              	| Inhalt                                      	| (Lern)ziel 	| Vorbereitung 	| Für Lehrende 	| Abgabe/Aufgabe                    	| Anhänge 	|
 |----------------	|--------------------	|--------------------	|---------------------------------------------	|------------	|--------------	|--------------	|-----------------------------------	|---------	|
 | Beispiel       	| asynchron          	| Einführungssitzung 	| Übersicht Semesterplanung, Prüfungsleistung 	| -          	| -            	| -            	| Vorbereitung Lektüre @forTEXT2024 	| -       	|
-| 1              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 2              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 3              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 4              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 5              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 6              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 7              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 8              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 9              	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 10             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 11             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 12             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 13             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 14             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 15             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 16             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 17             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 18             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 19             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
-| 20             	| asynchron/synchron 	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 1              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 2              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 3              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 4              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 5              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 6              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 7              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 8              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 9              	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 10             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 11             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 12             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 13             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 14             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 15             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 16             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 17             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 18             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 19             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
+| 20             	|  	|                    	|                                             	|            	|              	|              	|                                   	|         	|
