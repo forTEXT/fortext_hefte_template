@@ -1,22 +1,28 @@
-## Legen Sie hier die für die Publikation relevanten Metadaten ab:
+# Legen Sie hier die für die Publikation relevanten Metadaten ab:
 # Titel, Autor*innen inkl. Metadaten, Affiliations, Keywords, Information zum Veranstaltungstypen sowie Anzahl der Sitzungen
 
-#fügen Sie hier den Titel ihrer Lehrveranstaltung ein
-title: Titel der Lehrveranstaltung
+# !!! Achtung: Bitte füllen sie lediglich die vorhandenen Felder aus. 
+# !!! Fügen sie keine neuen Felder hinzu, benennen sie die bestehenden nicht um und löschen Sie keine Felder, wenn dies nicht 
+# !!! explizit in der Beschreibung des Feldes gefordert ist.
+
+# Fügen Sie hier den Titel ihres Beitrags ein. 
+# Falls Sie einen Doppelpunkt (:) in ihrem Titel verwenden, setzen sie den gesamten Titel in Anführungszeichen ("Titel").
+title: Titel des Beitrags
 
 
-# Für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+# Für jede Affiliation vergeben Sie eine ID. Mit dieser ID weisen sie im nächsten Schrit den Autor*innen die jeweilige Affiliation zu. 
+# Falls sie mehr oder weniger Affiliations benötigen, fügen sie für jede Affiliation ein Feld "id" und ein Feld "organization" hinzu bzw.
+# bzw. löschen die nicht benötigten Felder.
 affiliation:
-  id: 1
+- id: 1
   organization: Affiliation1
-  id: 2
+- id: 2
   organization: Affiliation2
 
 # Zählen Sie hier die Autor*innen des Beitrags auf.
 # Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
-# Für jede Affiliation wird eine ID gesetzt, zu der sie im nächsten Schritt den Namen der Affiliation hinzufügen
-# für AutorInnen ohne Affiliation bleibt das Feld bestehen, es wird aber keine Zahl gesetzt 
-
+# Für jede Affiliation wird eine oben definierte ID gesetzt.
+# Für AutorInnen ohne Affiliation bleibt das Feld bestehen, es wird aber keine Zahl gesetzt 
 author:
 - affiliation: 1
   email: Mailadresse
@@ -45,7 +51,7 @@ copyright_:
 
 # Weitere Metadaten
 
-tags: #hier tragen sie 5 keywords ein
+tags: # Hier tragen sie 5 keywords ein
   - keyword1
   - keyword2
   - keyword3
@@ -56,7 +62,7 @@ va_type: # Veranstaltungstyp z.B. Workshop, Mehrere Sitzungen einer Lehrveransta
 no_type: # Anzahl der Sitzungen in Tagen z.B. eintägiger Workshop == 1 etc.
 
 
-# keine weitere Bearbeitung notwendig
+# Ab hier ist keine weitere Bearbeitung notwendig.
 issuetitle: Textannotation in der Hochschullehre
 journal:
 - container-title: forTEXT

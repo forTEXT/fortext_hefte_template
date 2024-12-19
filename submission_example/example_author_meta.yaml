@@ -1,12 +1,16 @@
-## Legen Sie hier die für die Publikation relevanten Metadaten ab:
-# Titel, Autor*innen inkl. Metadaten, Affiliations
-
-#fügen Sie hier den Titel ihrer Lehrveranstaltung ein
-title: 'Selbststudieneinheit "Textannotation (mit CATMA)"'
+# Beispielhafte Metadatendatei. 
+# Diese Datei dient als Verdeutlichung des Aufbaus und Inhalts. 
+# Für ihre Einreichung füllen sie bitte nicht diese Datei sondern die Datei author_meta.yaml im submission_template Ordner aus.  
 
 
+# Fügen Sie hier den Titel ihrer Lehrveranstaltung ein
+title: "Selbststudieneinheit: Textannotation (mit CATMA)"
 
-# für jede Affiliation vergeben Sie eine ID, diese ID muss mit der ID der AutorInnen übereinstimmen
+
+
+# Für jede Affiliation vergeben Sie eine ID. Mit dieser ID weisen sie im nächsten Schrit den Autor*innen die jeweilige Affiliation zu. 
+# Falls sie mehr oder weniger Affiliations benötigen, fügen sie für jede Affiliation ein Feld "id" und ein Feld "organization" hinzu bzw.
+# bzw. löschen die nicht benötigten Felder.
 affiliation:
   id: 1
   organization: Technische Universität Darmstadt
@@ -35,7 +39,7 @@ copyright_:
 
 # Weitere Metadaten
 
-tags: #hier tragen sie 5 keywords ein
+tags: # Hier tragen sie 5 keywords ein
   - keyword1
   - keyword2
   - keyword3
@@ -46,7 +50,7 @@ va_type: Selbststudieneinheit
 no_type: 4
 
 
-# keine weitere Bearbeitung notwendig
+# Ab hier ist keine weitere Bearbeitung notwendig.
 issuetitle: Textannotation in der Hochschullehre
 journal:
 - container-title: forTEXT
