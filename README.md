@@ -24,7 +24,7 @@ In diesem Repository finden Sie Vorlagen und Beispiele für die benötigten Best
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
 * für den Beitragstext die Datei [`text.md`](submission_template/text.md),
-* für den Ablaufplan [`tabelle.md`](submission_template/tabelle.md) oder [`tabelle.csv`](submission_template/tabelle.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
+* für den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/tabelle.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
 * für die Bibiographie [`bibliography.json`](submission_template/bibliography.json),
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
 
@@ -46,17 +46,17 @@ Wie diese Beispieleinreichung als fertiger Beitrag aussehen könnte sehen Sie in
 
 #### Beitrag
 
-Alle Fließtexte (Einführungstext, Gesamtablauf, Sitzungsbeschreibungen, Reflexion) werden in einer Markdowndatei abgegeben. Im Template ist diese Datei als [`text.md`](submission_template/text.md) abgelegt. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein. Nennen Sie diese Datei, wie im Template vorgegeben, [`tabelle.md`](submission_template/tabelle.md) oder [`tabelle.csv`](submission_template/tabelle.csv).
-
+Der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen.
+Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
 #### Metadaten
 
-Die Metadaten der Autor\*innen müssen in einer Metadatendatei im yaml-Format abgegeben werden (siehe Datei [`author_meta.yaml`](submission_template/author_meta.yaml) im Template). Bitte beachten Sie die im Template aufgeführten Hinweise. Zu den relevanten Metadaten gehören: Vorname, Nachname, ORCID, Affiliation, E-Mail-Adresse aller Autor\*innen, der Titel ihres Artikels sowie der Veranstaltungstyp bzw. das Lehrformat, für welches ihr Lehrkonzept entworfen wurde (Workshop, Proseminar etc.), die Anzahl der Sitzungen, auf die sich Ihr eingereichtes Lehrkonzept bezieht (zwei Workshoptage = zwei Sitzungen etc.) sowie 5 Keywords.
+Die Metadaten der Autor\*innen müssen in einer Metadatendatei im yaml-Format abgegeben werden (siehe Datei [`author_meta.yaml`](submission_template/author_meta.yaml) im Template). Bitte beachten Sie die im Template aufgeführten Hinweise. Zu den relevanten Metadaten gehören: Vorname, Nachname, ORCID, Affiliation, E-Mail-Adresse aller Autor\*innen, der Titel ihres Artikels sowie der Veranstaltungstyp bzw. das Lehrformat, für welches ihr Lehrkonzept entworfen wurde (Workshop, Proseminar etc.), die Anzahl der Sitzungen, auf die sich Ihr eingereichtes Lehrkonzept bezieht (zwei Workshoptage = zwei Sitzungen etc.) sowie 5 Keywords. Fügen Sie keine zusätzlichen Informationen hinzu.
 
  
 #### Markdown-Syntax
 
-Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit. Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
+Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
 
 Sollten Sie nicht die Vorlage verwenden, achten Sie unabhängig von der Wahl des Editors darauf, die Fließtexte sowie ggf. die Tabelle als Markdown-Datei (mit der Dateiendung `.md`) zu speichern.
 
@@ -67,7 +67,9 @@ Die In-Text-Referenzen sowie das Literaturverzeichnis werden von der Redaktion a
 
 Sie müssen daher eine Datei einreichen, die alle Referenzen, die Sie im Fließtext oder in der Sitzungsübersicht zitieren oder dem Anhang hinzufügen, enthält. Sämtliche in der Veranstaltung genutzten Primär- und Sekundärtexte sowie von Ihnen für den Beitrag ergänzte Referenzen müssen in dieser Datei aufgeführt werden.
 
-Sie können Ihr Literaturverzeichnis als BibLaTeX- (.bib), BiBTeX- (.bibtex) oder als CSL JSON-Datei (.json) einreichen. Die vollständigen bibliografischen Metadaten (wie Vorname, Nachname aller Autor\*innen und Herausgeber*innen, Publikationsort, URL, DOI etc.) müssen in Ihrer BibTeX-Datei sauber und vollständig hinterlegt sein.
+Sie können Ihr Literaturverzeichnis als BibLaTeX- (```bibliography.bib```), BiBTeX- (```bibliography.bibtex```) oder als CSL JSON-Datei (```bibliography.json```) einreichen. Die vollständigen bibliografischen Metadaten (wie Vorname, Nachname aller Autor\*innen und Herausgeber*innen, Publikationsort, URL, DOI etc.) müssen in Ihrer BibTeX-Datei sauber und vollständig hinterlegt sein.
+
+Beispielhafte Literaturverzeichnis-Dateien sind [```example_bibliography.bib](submission_example/example_bibliography.bib) oder [```example_bibliography.json](submission_example/example_bibliography.json). Für ihre Einreichung können Sie ihre Daten in eine der entsprechenden Dateien im [Template Ordner](submssion_template) eintragen. Bitte achten Sie auch hier darauf, die Dateinamen (```bibliography.bib```bzw. ```bibliography.json```) nicht zu verändern. 
 
 _Hinweis_: Es ist nicht nötig, dass Sie am Ende Ihres Fließtextes eine Referenzliste aufführen. 
 
@@ -95,26 +97,44 @@ Weitere Hinweise zur Generierung von Citekeys in Citavi bzw. Zotero:
 Im Ordner [`submission_example`](submission_example) finden Sie einige Beispiele zur Nutzung von Citekeys.
 Bitte stellen Sie sicher, dass alle Citekeys, die sie nutzen, in ihrem Literaturverzeichnis vorhanden sind.
 
+#### Verweise zu Textabschnitten
+Für textinterne Verweise wie beispielsweise Verlinkungen zu Textabschnitten bitten wir Sie, diese gemäß den Konventionen der Markdown-Syntax zu erstellen. Für Textstellen wie “siehe Abs. Einführungstext”, die auf andere Abschnitte verweisen, können Sie Anker erstellen, indem Sie die zu verlinkende Textstelle in eckige Klammern (“[]”) setzen und das Ziel der Verlinkung in runde Klammern (“()”) setzen. In der Verlinkung werden Überschriften als sogenannte "Anker" referenziert, die durch ein vorangestelltes # und den Überschriftentext identifiziert werden.
+`[siehe Abschnitt](#zielüberschrift)` führt zu [siehe Abschnitt]() (mit Verlinkung zur Zielüberschrift).
+Wenn eine Überschrift mehrere Wörter enthält, wird der Anker automatisch aus dem Text der Überschrift generiert, wobei alle Leerzeichen durch Bindestriche ersetzt und Sonderzeichen entfernt oder angepasst werden. So wird beispielsweise aus der Überschrift Mein Abschnittstitel der Anker #mein-abschnittstitel. Achten Sie daher darauf, die genaue Schreibweise des generierten Ankers zu verwenden, um eine korrekte Verlinkung sicherzustellen.
+Eine Anleitung für Verlinkungen auf Abschnitte mit einem ausfürhlichen Beispiel findet sich unter: https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links
  
 #### Anhänge
 
-Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in Ihrem Literaturverzeichnis.
+Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in Ihrem Literaturverzeichnis, indem Sie einen Citekey, den Titel des Anhangs, die Autor*innen-Namen, das Jahr hinterlegen.
 Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
 
 ## Guidelines - Inhalt
 
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
-* [1. Einführungstext](#1-einführungstext)
-  * [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
-  * [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
-  * [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
-* [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
-* [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
-* [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
-* [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-  * [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
-  * [5.2. Studierende](#52-studierende)
+- [Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”](#informationen-zu-ihrer-einreichung-zum-thema-textannotation-in-der-hochschullehre)
+  - [Übersicht über das Repository](#übersicht-über-das-repository)
+      - [Vorlagen](#vorlagen)
+      - [Beispiele](#beispiele)
+  - [Formate und Formatierungen](#formate-und-formatierungen)
+      - [Beitrag](#beitrag)
+      - [Metadaten](#metadaten)
+      - [Markdown-Syntax](#markdown-syntax)
+      - [Literaturverzeichnis](#literaturverzeichnis)
+      - [Zitieren mit Citekeys](#zitieren-mit-citekeys)
+      - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
+      - [Anhänge](#anhänge)
+  - [Guidelines - Inhalt](#guidelines---inhalt)
+      - [1. Einführungstext](#1-einführungstext)
+        - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
+        - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
+        - [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+      - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
+      - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
+      - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
+      - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
+        - [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
+        - [5.2. Studierende](#52-studierende)
 
 
 
