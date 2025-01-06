@@ -298,6 +298,6 @@ Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden fÃ
 
 \
 \
-\
+
 
 Bei Fragen oder Anregungen wenden Sie sich gerne an redaktion@fortext-hefte.de. Wir helfen Ihnen gerne weiter und sind fÃ¼r jede Anregung zur Verbesserung unserer Richtlinien dankbar.
