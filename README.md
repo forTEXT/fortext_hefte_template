@@ -24,7 +24,7 @@ In diesem Repository finden Sie Vorlagen und Beispiele für die benötigten Best
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
 * für den Beitragstext die Datei [`text.md`](submission_template/text.md),
-* für den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/tabelle.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
+* für den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/table.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
 * für die Bibiographie [`bibliography.json`](submission_template/bibliography.json),
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
 
