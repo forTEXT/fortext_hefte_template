@@ -296,7 +296,7 @@ Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden f√
 * Welche Sitzungen waren besonders produktiv/ weniger produktiv?
 
 
-\ 
+\
 
 
 Bei Fragen oder Anregungen wenden Sie sich gerne an redaktion@fortext-hefte.de. Wir helfen Ihnen gerne weiter und sind f√ºr jede Anregung zur Verbesserung unserer Richtlinien dankbar.
