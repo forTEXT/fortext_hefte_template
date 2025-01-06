@@ -24,22 +24,23 @@ In diesem Repository finden Sie Vorlagen und Beispiele für die benötigten Best
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
 * für den Beitragstext die Datei [`text.md`](submission_template/text.md),
-* für den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/table.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
-* für die Bibiographie [`bibliography.json`](submission_template/bibliography.json),
+* für die SItzungsübersicht bzw. den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/table.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
+* für die Bibiographie [`bibliography.json`](submission_template/bibliography.json), [`bibliography.bib`](submission_template/bibliography.bib) oder eine äquivalente Datei mit dem Suffix '.bibtex',
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
 
 Für Anhänge erstellen Sie einen Ordner "Anhänge", in welchen Sie alle weiteren Dateien im PDF-Format legen.
+Alle Dateien reichen Sie dann komprimiert als ZIP-Ordner ein. 
 
 #### Beispiele
 
-Zu den leeren Vorlagen finden Sie im Ordner [`submission_example`](submission_example) die entsprechenden ausgefüllten Beispiele.
+Neben den Vorlagen finden Sie im Ordner [`submission_example`](submission_example) die entsprechenden Dateien ausgefüllt als Beispiele.
 Enthalten sind beispielhaft...
 * ein Beitragstext ([`example_text.md`](submission_example/example_text.md)), 
-* ein Ablaufplan (als Markdown-Datei [`example_table.md`](submission_example/example_table.md) oder als CSV-Datei [`example_table.csv`](submission_example/example_table.csv)),
-* eine Bibliographie ([`example_bib.json`](submission_example/example_bib.json)),
-* Autor*innen-Metadaten ([`example_author_meta.yaml`](submission_example/example_author_meta.yaml)). 
+* eine Sitzungsübersicht als Markdown-Datei ([`example_table.md`](submission_example/example_table.md) und als CSV-Datei ([`example_table.csv`](submission_example/example_table.csv))),
+* eine Bibliographiedatei ([`example_bib.json`](submission_example/example_bib.json)),
+* eine Datei mit Metadaten zu den Autor*innen ([`example_author_meta.yaml`](submission_example/example_author_meta.yaml)). 
 
-Wie diese Beispieleinreichung als fertiger Beitrag aussehen könnte sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
+Wie diese Beispieleinreichung als von der Redaktion generierter Beitrag aussieht, sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF-Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
 
 
 ## Formate und Formatierungen
@@ -69,7 +70,7 @@ Sie müssen daher eine Datei einreichen, die alle Referenzen, die Sie im Fließt
 
 Sie können Ihr Literaturverzeichnis als BibLaTeX- (```bibliography.bib```), BiBTeX- (```bibliography.bibtex```) oder als CSL JSON-Datei (```bibliography.json```) einreichen. Die vollständigen bibliografischen Metadaten (wie Vorname, Nachname aller Autor\*innen und Herausgeber*innen, Publikationsort, URL, DOI etc.) müssen in Ihrer BibTeX-Datei sauber und vollständig hinterlegt sein.
 
-Beispielhafte Literaturverzeichnis-Dateien sind [```example_bibliography.bib](submission_example/example_bibliography.bib) oder [```example_bibliography.json](submission_example/example_bibliography.json). Für ihre Einreichung können Sie ihre Daten in eine der entsprechenden Dateien im [Template Ordner](submssion_template) eintragen. Bitte achten Sie auch hier darauf, die Dateinamen (```bibliography.bib```bzw. ```bibliography.json```) nicht zu verändern. 
+Beispielhafte Literaturverzeichnis-Dateien sind [`example_bibliography.bib`](submission_example/example_bibliography.bib) und [`example_bibliography.json`](submission_example/example_bibliography.json). Für Ihre Einreichung tragen Sie Ihre Daten in eine der entsprechenden Dateien im [Template Ordner](submssion_template) ein. Alternativ können Sie eine solche Datei auch in Ihrem Literaturverwaltungsprogramm automatisiert generieren lassen. Bitte achten Sie auch hier darauf, die Dateinamen (```bibliography.bib```bzw. ```bibliography.json```) nicht zu verändern. 
 
 _Hinweis_: Es ist nicht nötig, dass Sie am Ende Ihres Fließtextes eine Referenzliste aufführen. 
 
@@ -100,7 +101,7 @@ Bitte stellen Sie sicher, dass alle Citekeys, die sie nutzen, in ihrem Literatur
 #### Verweise zu Textabschnitten
 Für textinterne Verweise wie beispielsweise Verlinkungen zu Textabschnitten bitten wir Sie, diese gemäß den Konventionen der Markdown-Syntax zu erstellen. Für Textstellen wie “siehe Abs. Einführungstext”, die auf andere Abschnitte verweisen, können Sie Anker erstellen, indem Sie die zu verlinkende Textstelle in eckige Klammern (“[]”) setzen und das Ziel der Verlinkung in runde Klammern (“()”) setzen. In der Verlinkung werden Überschriften als sogenannte "Anker" referenziert, die durch ein vorangestelltes # und den Überschriftentext identifiziert werden.
 `[siehe Abschnitt](#zielüberschrift)` führt zu [siehe Abschnitt]() (mit Verlinkung zur Zielüberschrift).
-Wenn eine Überschrift mehrere Wörter enthält, wird der Anker automatisch aus dem Text der Überschrift generiert, wobei alle Leerzeichen durch Bindestriche ersetzt und Sonderzeichen entfernt oder angepasst werden. So wird beispielsweise aus der Überschrift Mein Abschnittstitel der Anker #mein-abschnittstitel. Achten Sie daher darauf, die genaue Schreibweise des generierten Ankers zu verwenden, um eine korrekte Verlinkung sicherzustellen.
+Wenn eine Überschrift mehrere Wörter enthält, wird der Anker automatisch aus dem Text der Überschrift generiert, wobei alle Leerzeichen durch Bindestriche ersetzt und Sonderzeichen entfernt oder angepasst werden. So wird beispielsweise aus der Überschrift 'Mein Abschnittstitel' der Anker #mein-abschnittstitel. Achten Sie daher darauf, die genaue Schreibweise des generierten Ankers zu verwenden, um eine korrekte Verlinkung sicherzustellen.
 Eine Anleitung für Verlinkungen auf Abschnitte mit einem ausfürhlichen Beispiel findet sich unter: https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links
  
 #### Anhänge
@@ -112,29 +113,17 @@ Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markd
 
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
-- [Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”](#informationen-zu-ihrer-einreichung-zum-thema-textannotation-in-der-hochschullehre)
-  - [Übersicht über das Repository](#übersicht-über-das-repository)
-      - [Vorlagen](#vorlagen)
-      - [Beispiele](#beispiele)
-  - [Formate und Formatierungen](#formate-und-formatierungen)
-      - [Beitrag](#beitrag)
-      - [Metadaten](#metadaten)
-      - [Markdown-Syntax](#markdown-syntax)
-      - [Literaturverzeichnis](#literaturverzeichnis)
-      - [Zitieren mit Citekeys](#zitieren-mit-citekeys)
-      - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
-      - [Anhänge](#anhänge)
-  - [Guidelines - Inhalt](#guidelines---inhalt)
-      - [1. Einführungstext](#1-einführungstext)
-        - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
-        - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
-        - [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
-      - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
-      - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
-      - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
-      - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-        - [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
-        - [5.2. Studierende](#52-studierende)
+- [Guidelines - Inhalt](#guidelines---inhalt)
+  - [1. Einführungstext](#1-einführungstext)
+    - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
+    - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
+    - [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+  - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
+  - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
+  - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
+  - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
+    - [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
+    - [5.2. Studierende](#52-studierende)
 
 
 
@@ -196,8 +185,8 @@ Unter Punkt [4. Sitzungsbeschreibungen](#4-detaillierte-darstellung-der-sitzunge
 Gehen Sie in diesem Abschnitt auf die Lerninhalte und die zu vermittelnden Kompetenzen in den Einheiten ihres Lehrkonzepts ein.
 
 
-_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Ausführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen."    
- 
+_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Ausführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen."  
+
 _Beispiel 2:_ "Die Selbststudieneinheit zielt darauf ab, die Lerninhalte Narrationstheorie und die Großgattung Prosa, die Erzählung "Krambambuli" von Marie von Ebner-Eschenbach sowie die Einführung und Anwendung der literaturwissenschaftlichen Methode des Annotierens, sowohl manuell analog als auch manuell digital mit dem Annotationstool CATMA zu vermitteln. Zudem beinhaltet die Einheit die Einzeltextanalyse der Primärlektüre mit einem besonderen Fokus auf die Figurencharakterisierung. [...]"
 
 
@@ -242,10 +231,10 @@ Nennen Sie das Lernziel der SItzung/Einheit
 _Beispiele:_ “Visualisierungsmöglichkeiten von CATMA lernen”, “Texte im Tool CATMA hochladen”, Grundlagen der Figurenanalyse verstehen und anwenden”
 * <ins>Spalte 6 (Vorbereitung)</ins>  
 Zählen Sie die Inhalte auf, die die Studierenden bis zu dieser Sitzung/Einheit vorbereiten sollen (Recherche, Lesen, Videos anschauen). Benennen Sie diese Inhalte explizit, indem sie Citekeys aufführen 
-Beispiele: “Lesen des Kapitels 2.3. zu Narratologie in @fortextetal2026”, “Kontoeinrichtung auf catma\.de” 
+Beispiele: “Lesen des Kapitels 2.3. zu Narratologie in @fortextetal2026”, “Kontoeinrichtung auf catma.de” 
 * <ins>Spalte 7 (Für Lehrende)</ins>  
 Zählen Sie Inhalte wie (weiterführende) Literatur oder Webseiten auf, die für Lehrende für diese Sitzung relevant sind. Zählen Sie diese durch Citekeys und/oder verlinkte Schlagwörter nach Markdownsyntax auf.
-Beispiele: “@fortext2026, @hander2026”, “\[Podiumsdiskussion](www.annolehren345)”
+Beispiele: “@fortext2026, @hander2026”, “\[Podiumsdiskussion](www.annolehren345.de)”
 * <ins>Spalte 8 (Abgabe/Aufgabe)</ins>  
 Beschreiben Sie die Auf- bzw. Abgabe, die in dieser Sitzung/Einheit aufgetragen wird und nennen Sie die Sitzungsnummer/-einheit, zu welcher diese fällig ist. Nummerieren Sie die Abgabe/Aufgabe gegebenenfalls.
 Die ausführliche Aufgabenstellung können Sie unter Punkt 4 (“Sitzungsbeschreibungen”) in der detaillierten Sitzungsbeschreibung aufführen.
@@ -306,3 +295,6 @@ Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden f�
 * Gab es für Studierende Barrieren und wie konnten bzw. können diese ggf. überwunden werden?
 * Welche Sitzungen waren besonders produktiv/ weniger produktiv?
 
+
+
+Bei Fragen oder Anregungen wenden Sie sich gerne an redaktion@fortext-hefte.de. Wir helfen Ihnen gerne weiter und sind für jede Anregung zur Verbesserung unserer Richtlinien dankbar.
