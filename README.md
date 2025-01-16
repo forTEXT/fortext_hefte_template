@@ -117,12 +117,12 @@ Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres 
   - [1. Einführungstext](#1-einführungstext)
     - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
     - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
-    - [1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-ausführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+    - [1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
   - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
   - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
   - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
   - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-    - [5.1. Rahmenbedingungen \& Ausführung der Veranstaltung](#51-rahmenbedingungen--ausführung-der-veranstaltung)
+    - [5.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#51-rahmenbedingungen--durchführung-der-veranstaltung)
     - [5.2. Studierende](#52-studierende)
 
 
@@ -161,7 +161,7 @@ _Beispiele:_ Laptop, Lizenzen, Internetverbindung
 
 
 
-##### 1.3 Ausführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)
+##### 1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)
 
 * Verfügbarkeit von Medien und Materialien – Welche Materialien waren für die Umsetzung der Lehrveranstaltung notwendig?
 _Beispiele:_ Beamer, Lizenz für Online-Meetings, WLAN, Flipchart, PC Pool
@@ -185,7 +185,7 @@ Unter Punkt [4. Sitzungsbeschreibungen](#4-detaillierte-darstellung-der-sitzunge
 Gehen Sie in diesem Abschnitt auf die Lerninhalte und die zu vermittelnden Kompetenzen in den Einheiten ihres Lehrkonzepts ein.
 
 
-_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Ausführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen."  
+_Beispiel 1:_ "Die Teilnehmer\*innen des Workshops können nach der Teilnahme eigenständig in CATMA annotieren. Dafür beginnt der Workshop mit einer Einführung in das literaturwissenschaftliche Annotieren. In den folgenden 2 Einheiten wird das Annotationstool CATMA vorgestellt und die Durchführung der verschiedenen Annotationsmöglichkeiten erarbeitet. In der 4. Einheit erstellen die Teilnehmer*innen Annotationen mit einem von ihnen gewählten Text. Der Workshop wird mit der Präsentation der eigenen Annotationen in Einheit 5 abgeschlossen."  
 
 _Beispiel 2:_ "Die Selbststudieneinheit zielt darauf ab, die Lerninhalte Narrationstheorie und die Großgattung Prosa, die Erzählung "Krambambuli" von Marie von Ebner-Eschenbach sowie die Einführung und Anwendung der literaturwissenschaftlichen Methode des Annotierens, sowohl manuell analog als auch manuell digital mit dem Annotationstool CATMA zu vermitteln. Zudem beinhaltet die Einheit die Einzeltextanalyse der Primärlektüre mit einem besonderen Fokus auf die Figurencharakterisierung. [...]"
 
@@ -266,7 +266,7 @@ In der Einführungseinheit wird den Studierenden der Ablauf des Workshops vorges
 In diesem Teil des Beitrages reflektieren Sie Ihre Lehrveranstaltung in Form eines Fließtextes in bis zu 1200 Wörtern.
 Allgemein gilt, dass Sie insbesondere in Bezug auf die Zielgruppe und Lernziele darauf eingehen sollten, wie sich genutzte Methoden und Materialien, der Aufbau/die Struktur des Lehrkonzepts bewährt haben. Reflektieren Sie gelungene Elemente und gehen Sie auf Herausforderungen des Lehrkonzepts ein, die sich möglicherweise im Laufe der Veranstaltung ergeben haben. 
 Nennen Sie ggf. Ideen oder Lösungsvorschläge zur Überwindung der genannten Herausforderungen oder, falls Sie das Lehrkonzept mehrmals angewendet haben, welche Anpassungen Sie weshalb getätigt haben. Gehen Sie darauf ein, ob Sie bei erneuter Durchführung des Konzepts Anpassungen durchführen würden. Stellen Sie dabei einen Bezug zu Gründen oder möglichen Ursachen auf.
-Gehen Sie auch gerne auf Feedback ein, das Sie im Zuge der Ausführung Ihrer Veranstaltung erhalten haben.
+Gehen Sie auch gerne auf Feedback ein, das Sie im Zuge der Durchführung Ihrer Veranstaltung erhalten haben.
 
 
 
@@ -275,7 +275,7 @@ Retrospektiv konnte ich feststellen, dass die Vierteilung des Lehrprojekts eine 
 Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden für Ihr Konzept relevant sein. Sie müssen daher nicht auf alle Punkte eingehen und können einzelne je nach Relevanz in Bezug auf ihre Erfahrungen detaillierter ausführen als andere:
 
 
-##### 5.1. Rahmenbedingungen & Ausführung der Veranstaltung
+##### 5.1. Rahmenbedingungen & Durchführung der Veranstaltung
 
 * War der Veranstaltungstyp (Übung, (Pro)Seminar etc.) in Bezug auf das Lernziel angemessen?
 * Umfang und Inhalt: Hat die geplante Durchführung der tatsächlichen Durchführung entsprochen? Zu welchen Änderungen/Anpassungen kam es und was waren die Ursachen?
