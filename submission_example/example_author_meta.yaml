@@ -49,6 +49,15 @@ tags: # Hier tragen sie 5 keywords ein
 va_type: Selbststudieneinheit
 no_type: 4
 
+# Anhänge
+appendices:
+- title: "Foliensatz: Literarische Textannotation (mit CATMA)"
+  year: 2024
+  author: fortext
+- title: "Foliensatz: Figurenanalyse"
+  year: 2024
+  author: fortext
+
 
 # Ab hier ist keine weitere Bearbeitung notwendig.
 issuetitle: Textannotation in der Hochschullehre
