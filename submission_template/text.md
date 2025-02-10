@@ -1,9 +1,17 @@
 
-# Einführungstext
+# Inhaltsverzeichnis
 
-# Beschreibung des Gesamtablaufs
+1. [Einführung](#einführung)
+2. [Gesamtablauf](#gesamtablauf)
+3. [Sitzungen im Detail](#lehreinheiten-im-detail)
+4. [Reflexion](#reflexion)
 
-# Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema
+# Einführung
+
+# Gesamtablauf
 
 
-# Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen
+# Sitzungen im Detail
+
+
+# Reflexion
