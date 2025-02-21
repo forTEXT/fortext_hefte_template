@@ -106,24 +106,36 @@ Eine Anleitung für Verlinkungen auf Abschnitte mit einem ausfürhlichen Beispie
  
 #### Anhänge
 
-Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>). 
+Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>)". 
 Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
 
 ## Guidelines - Inhalt
 
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
-- [Guidelines - Inhalt](#guidelines---inhalt)
-  - [1. Einführungstext](#1-einführungstext)
-    - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
-    - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
-    - [1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
-  - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
-  - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
-  - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
-  - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-    - [5.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#51-rahmenbedingungen--durchführung-der-veranstaltung)
-    - [5.2. Studierende](#52-studierende)
+- [Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”](#informationen-zu-ihrer-einreichung-zum-thema-textannotation-in-der-hochschullehre)
+  - [Übersicht über das Repository](#übersicht-über-das-repository)
+      - [Vorlagen](#vorlagen)
+      - [Beispiele](#beispiele)
+  - [Formate und Formatierungen](#formate-und-formatierungen)
+      - [Beitrag](#beitrag)
+      - [Metadaten](#metadaten)
+      - [Markdown-Syntax](#markdown-syntax)
+      - [Literaturverzeichnis](#literaturverzeichnis)
+      - [Zitieren mit Citekeys](#zitieren-mit-citekeys)
+      - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
+      - [Anhänge](#anhänge)
+  - [Guidelines - Inhalt](#guidelines---inhalt)
+      - [1. Einführungstext](#1-einführungstext)
+        - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
+        - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
+        - [1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+      - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
+      - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
+      - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
+      - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
+        - [5.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#51-rahmenbedingungen--durchführung-der-veranstaltung)
+        - [5.2. Studierende](#52-studierende)
 
 
 
