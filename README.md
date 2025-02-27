@@ -129,31 +129,31 @@ Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres 
       - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
       - [Anhänge](#anhänge)
   - [Guidelines - Inhalt](#guidelines---inhalt)
-      - [0. Abstract](#0-abstract)
-      - [1. Einführungstext](#1-einführungstext)
-        - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
-        - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
-        - [1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#13-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
-      - [2. Beschreibung des Gesamtablaufs](#2-beschreibung-des-gesamtablaufs)
-      - [3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#3-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
-      - [4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
-      - [5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#5-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-        - [5.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#51-rahmenbedingungen--durchführung-der-veranstaltung)
-        - [5.2. Studierende](#52-studierende)
+      - [1. Abstract](#1-abstract)
+      - [2. Einführungstext](#2-einführungstext)
+        - [2.1 Rahmenbedingungen](#21-rahmenbedingungen)
+        - [2.2 Voraussetzungen der Teilnehmenden](#22-voraussetzungen-der-teilnehmenden)
+        - [2.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#23-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+      - [3. Beschreibung des Gesamtablaufs](#3-beschreibung-des-gesamtablaufs)
+      - [4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#4-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
+      - [5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#5-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
+      - [6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#6-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
+        - [6.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#61-rahmenbedingungen--durchführung-der-veranstaltung)
+        - [6.2. Studierende](#62-studierende)
 
 
 
-#### 0. Abstract 
+#### 1. Abstract 
 Beschreiben sie in einem Abstract die wichtigsten Inhalte ihres Lehrkonzept. Der Text solle maximal 80 Wörter haben.
 
-#### 1. Einführungstext
+#### 2. Einführungstext
 
 **Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 900 Worten. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
 
 
 
 
-##### 1.1 Rahmenbedingungen
+##### 2.1 Rahmenbedingungen
 
 * Titel der Veranstaltung
 * Optional: Beschreibung der Schnittstelle Geisteswissenschaft + Informatik/DH (sofern vorhanden)
@@ -167,7 +167,7 @@ _Beispiele:_ 2 Workshoptage, 16 Semesterwochen o.ä.
 _Beispiele:_ Winter-/Sommersemester 2023 an der TU Darmstadt
 
 
-##### 1.2 Voraussetzungen der Teilnehmenden
+##### 2.2 Voraussetzungen der Teilnehmenden
 
 * Zielgruppe: Für welche Zielgruppe(n) ist das Lehrkonzept ausgerichtet? Für Bachelorstudierende, Masterstudierende? Und welcher Studiengänge?
 * Notwendige Vorkenntnisse in Bezug auf das Fach und/oder technische Voraussetzungen und Vorkenntnisse (ggf. differenziert nach Gruppen)
@@ -180,7 +180,7 @@ _Beispiele:_ Laptop, Lizenzen, Internetverbindung
 
 
 
-##### 1.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)
+##### 2.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)
 
 * Verfügbarkeit von Medien und Materialien – Welche Materialien waren für die Umsetzung der Lehrveranstaltung notwendig?
 _Beispiele:_ Beamer, Lizenz für Online-Meetings, WLAN, Flipchart, PC Pool
@@ -195,7 +195,7 @@ _Beispiel 2:_ “Das vorgestellte Seminar wird mit einer Studienleistung abgesch
 
 
 
-#### 2. Beschreibung des Gesamtablaufs
+#### 3. Beschreibung des Gesamtablaufs
 
 
 In diesem Teil ihrer Einreichungen beschreiben sie kurz und prägnant den Gesamtablauf des eingereichten Lehrkonzepts in bis zu 600 Worten. 
@@ -210,7 +210,7 @@ _Beispiel 2:_ "Die Selbststudieneinheit zielt darauf ab, die Lerninhalte Narrat
 
 
 
-#### 3. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle
+#### 4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle
 
 **Inhalt:** 
 Die Sitzungsübersicht dient als Übersicht Ihres Lehrkonzepts. Und soll Leser*innen einen schnellen Überblick über die Strukturierung ihrer Einheiten ermöglichen. Im darauf folgenden Schritt haben sie die Möglichkeit, ihre Sitzungen im Detail zu beschreiben. Bitte füllen Sie die Tabelle daher stichpunktartig in chronologischer Reihenfolge aus.
@@ -261,7 +261,7 @@ _Beispiele:_ “Abgabe 1: Textzusammenfassung bis Sitzung 9”
 
 
 
-#### 4. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation
+#### 5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation
 
 In diesem Teil des Beitrags haben sie die Möglichkeit, die einzelnen Sitzungen/Einheiten/Arbeitsblöcke zum Thema Textannotation genauer zu beschreiben. Es handelt sich somit um einen ausformulierten Fließtext, der sich mit Ihrer Sitzungsübersicht deckt. Sie sollten das Thema der Einheit nennen, auf die Inhalte, Lernziele und die Durchführung im Detail eingehen sowie ggf. Aufgabenstellungen formulieren. Nennen Sie außerdem relevante Literatur, indem Sie dafür die entsprechenden Citekeys aufführen.
 Insgesamt sollte dieser Abschnitt nicht mehr als 2500 Wörter enthalten. Jede Sitzungsbeschreibung/Einheitsbeschreibung (bei Workshops) beginnt, analog zur Spalte 1 in der Sitzungsübersicht, mit der Nummer der Sitzung bzw. der Dauer der Einheit sowie dem Titel.
@@ -280,7 +280,7 @@ _Beispiel 2:_
 In der Einführungseinheit wird den Studierenden der Ablauf des Workshops vorgestellt. Außerdem wird in einer Fragerunde erläutert, welche Kenntnisse die Studierenden zum Thema Sentimentanalyse haben.
 
 
-#### 5. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen
+#### 6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen
 
 In diesem Teil des Beitrages reflektieren Sie Ihre Lehrveranstaltung in Form eines Fließtextes in bis zu 1200 Wörtern.
 Allgemein gilt, dass Sie insbesondere in Bezug auf die Zielgruppe und Lernziele darauf eingehen sollten, wie sich genutzte Methoden und Materialien, der Aufbau/die Struktur des Lehrkonzepts bewährt haben. Reflektieren Sie gelungene Elemente und gehen Sie auf Herausforderungen des Lehrkonzepts ein, die sich möglicherweise im Laufe der Veranstaltung ergeben haben. 
@@ -294,7 +294,7 @@ Retrospektiv konnte ich feststellen, dass die Vierteilung des Lehrprojekts eine 
 Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden für Ihr Konzept relevant sein. Sie müssen daher nicht auf alle Punkte eingehen und können einzelne je nach Relevanz in Bezug auf ihre Erfahrungen detaillierter ausführen als andere:
 
 
-##### 5.1. Rahmenbedingungen & Durchführung der Veranstaltung
+##### 6.1. Rahmenbedingungen & Durchführung der Veranstaltung
 
 * War der Veranstaltungstyp (Übung, (Pro)Seminar etc.) in Bezug auf das Lernziel angemessen?
 * Umfang und Inhalt: Hat die geplante Durchführung der tatsächlichen Durchführung entsprochen? Zu welchen Änderungen/Anpassungen kam es und was waren die Ursachen?
@@ -305,7 +305,7 @@ Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden f�
 * Wie haben sich die Frequenz und der Umfang der Vorbereitungen/Aufgaben/Abgaben bewährt?
 * Hat sich die Prüfungsform als sinnvoll erwiesen
 
-##### 5.2. Studierende
+##### 6.2. Studierende
 
 * Zielgruppe: Studierende welcher Fachrichtungen und welches angestrebten Hochschulgrades (Bachelor/Master) haben tatsächlich ihre Veranstaltung besucht? Zu welchen Anpassungen führte die möglw. von der Planung abweichende Zielgruppe?
 * Waren ausreichend Vorkenntnisse in Bezug auf das Fach (ggf. differenziert nach Gruppen) gegeben? Falls nicht: Wie haben Sie darauf reagiert? Hätten bestimmte Sitzungen ausführlicher oder ggf. zusätzlich eingeplant werden müssen?
