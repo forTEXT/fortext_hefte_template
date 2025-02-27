@@ -129,6 +129,7 @@ Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres 
       - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
       - [Anhänge](#anhänge)
   - [Guidelines - Inhalt](#guidelines---inhalt)
+      - [0. Abstract](#0-abstract)
       - [1. Einführungstext](#1-einführungstext)
         - [1.1 Rahmenbedingungen](#11-rahmenbedingungen)
         - [1.2 Voraussetzungen der Teilnehmenden](#12-voraussetzungen-der-teilnehmenden)
@@ -141,6 +142,9 @@ Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres 
         - [5.2. Studierende](#52-studierende)
 
 
+
+#### 0. Abstract 
+Beschreiben sie in einem Abstract die wichtigsten Inhalte ihres Lehrkonzept. Der Text solle maximal 80 Wörter haben.
 
 #### 1. Einführungstext
 
