@@ -97,5 +97,8 @@ issue: 13
 article:
   doi: 
 date:
-reviewer_1: 
-reviewer_2:
+reviewers:
+- name:
+  email:
+- name:
+  email:

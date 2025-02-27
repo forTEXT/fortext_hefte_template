@@ -78,5 +78,8 @@ issue: 13
 date: 
 article:
   doi: 10.48694/abc
-reviewer_1: 
-reviewer_2:
+reviewers:
+- name:
+  email:
+- name:
+  email:
