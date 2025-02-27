@@ -5,6 +5,9 @@
 3. [Sitzungen im Detail](#sitzungen-im-detail)
 4. [Reflexion](#reflexion)
 
+# Abstract
+Die vorgestellte Lehreinheit führt Studierende in die literarische Textannotation am Beispiel des digitalen Annotations- und Analysetools CATMA ein. Vor dem Hintergrund der Erzähltheorie wird in einer Kombination aus asynchronen Selbstlernphasen und synchronen Präsenzsitzungen die Methode der Textannotation eingeführt und ihre praktische Anwendung angeleitet. Zudem lernen Studierende, wie sie literaturwissenschaftliche Fragestellungen formulieren und Nutzen sowie Einsatzmöglichkeiten digitaler Textannotation kritisch reflektieren können.
+
 # Einführung
 Das vorliegende Lehrkonzept stellt eine vierteilige Selbststudieneinheit zum Thema "Textannotation (mit CATMA)" vor. Es handelt sich um eine Kombination aus asynchroner und synchroner Lehre, die über einen Zeitraum von vier Semesterwochen im Rahmen der Einführungsveranstaltung "Grundkurs Literaturwissenschaft 2" im Sommersemester an der Technischen Universität Darmstadt durchgeführt wird.
 Der Grundkurs 2 ist der zweite Teil des zweiteiligen Einführungsmoduls zur Einführung in die Literaturwissenschaft, das im Germanistikstudium in den ersten zwei Studiensemestern die Grundlagen der deutschsprachigen Literaturwissenschaft abdecken soll, um die Studierenden auf das literaturwissenschaftliche Arbeiten in den darauf aufbauenden Pro- und Hauptseminaren der höheren Semester vorzubereiten.
