@@ -86,6 +86,9 @@ Grundsätzlich gilt:
 * @fortextetal führt zu fortext (2023)
 * [@doe2023; @smith2022; @smith2021] führt zu (Doe 2023, Smith 2021, 2022)
 * [@fortext2021, 11 f.] führt zu (fortext 2021, 11 f.)
+* @Zimmermann-2000 [21--22] führt zu Zimmermann (2000, 21–22)
+* @Boekaerts-2000 [418--419, 432] führt zu Boekaerts und Niemivirta (2000, 418–419, 432)
+* [vgl. @Zimmermann-2000, 21-22;@Boekaerts-2000, 418--419, 432] wird zu (vgl. Zimmermann 2000, 21–22; Boekaerts und Niemivirta 2000, 418–419, 432)
 
 
 Weiter Hinweise zur Nutzung von Citekeys finden sie hier: https://pandoc.org/chunkedhtml-demo/8.20-citation-syntax.html
