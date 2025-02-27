@@ -1,10 +1,11 @@
 
 # Inhaltsverzeichnis
 
-1. [Einführung](#einführung)
-2. [Gesamtablauf](#gesamtablauf)
-3. [Sitzungen im Detail](#lehreinheiten-im-detail)
-4. [Reflexion](#reflexion)
+- [Inhaltsverzeichnis](#inhaltsverzeichnis)
+- [Einführung](#einführung)
+- [Gesamtablauf](#gesamtablauf)
+- [Sitzungen im Detail](#sitzungen-im-detail)
+- [Reflexion](#reflexion)
 
 # Einführung
 
