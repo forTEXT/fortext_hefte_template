@@ -47,7 +47,7 @@ Wie diese Beispieleinreichung als von der Redaktion generierter Beitrag aussieht
 
 #### Beitrag
 
-Der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen.
+Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen.
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
 #### Metadaten
