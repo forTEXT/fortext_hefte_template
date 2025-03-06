@@ -144,11 +144,11 @@ Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres 
 
 
 #### 1. Abstract 
-Beschreiben sie in einem Abstract die wichtigsten Inhalte ihres Lehrkonzept. Der Text solle maximal 80 Wörter haben.
+Beschreiben sie in bis zu 80 Wörtern die wichtigsten Aspekte Ihres Lehrkonzept. 
 
 #### 2. Einführungstext
 
-**Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 900 Worten. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
+**Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 600 Worten. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
 
 
 
