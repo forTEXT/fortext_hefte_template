@@ -303,7 +303,7 @@ Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden f�
 * Materialzugänglichkeit (Bücher, Online-Materialien, Geräte, Ausstattung)
 * Tutor\*innen: War die Unterstützung von Tutor\*nnen sinnvoll? Oder wäre die Unterstützung im Rückblick sinnvoll?
 * Wie haben sich die Frequenz und der Umfang der Vorbereitungen/Aufgaben/Abgaben bewährt?
-* Hat sich die Prüfungsform als sinnvoll erwiesen
+* Hat sich die Prüfungsform als sinnvoll erwiesen?
 
 ##### 6.2. Studierende
 
