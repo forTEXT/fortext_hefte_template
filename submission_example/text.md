@@ -1,9 +1,10 @@
 # Inhaltsverzeichnis
 
-1. [Einführung](#einführung)
-2. [Gesamtablauf](#gesamtablauf)
-3. [Sitzungen im Detail](#sitzungen-im-detail)
-4. [Reflexion](#reflexion)
+1. [Abstract](#abstract)
+2. [Einführung](#einführung)
+3. [Gesamtablauf](#gesamtablauf)
+4. [Sitzungen im Detail](#sitzungen-im-detail)
+5. [Reflexion](#reflexion)
 
 # Abstract
 Die vorgestellte Lehreinheit führt Studierende in die literarische Textannotation am Beispiel des digitalen Annotations- und Analysetools CATMA ein. Vor dem Hintergrund der Erzähltheorie wird in einer Kombination aus asynchronen Selbstlernphasen und synchronen Präsenzsitzungen die Methode der Textannotation eingeführt und ihre praktische Anwendung angeleitet. Zudem lernen Studierende, wie sie literaturwissenschaftliche Fragestellungen formulieren und Nutzen sowie Einsatzmöglichkeiten digitaler Textannotation kritisch reflektieren können.
