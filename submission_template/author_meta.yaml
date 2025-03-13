@@ -7,7 +7,7 @@
 
 # Fügen Sie hier den Titel ihres Beitrags ein. 
 # Falls Sie einen Doppelpunkt (:) in ihrem Titel verwenden, setzen sie den gesamten Titel in Anführungszeichen ("Titel").
-title: Titel des Beitrags
+title: "Titel des Beitrags: Textannotation in der Hochschullehre"
 
 
 # Für jede Affiliation vergeben Sie eine ID. Mit dieser ID weisen sie im nächsten Schrit den Autor*innen die jeweilige Affiliation zu. 
@@ -76,6 +76,32 @@ appendices:
   - title: "Foliensatz: Figurenanalyse"
     year: 2024
     author: fortext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Ab hier ist keine weitere Bearbeitung notwendig.

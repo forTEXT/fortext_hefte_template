@@ -5,14 +5,15 @@ Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstel
 * [Übersicht über das Repository](#übersicht-über-das-repository)
   * [Vorlagen](#vorlagen)
   * [Beispiele](#beispiele)
-* [Formate und Formatierungen](#formate-und-formatierungen)
-  * [Beitrag](#beitrag)
+* [Abgabeformate und Formatierungshinweise](#abgabeformate-und-formatierungshinweise)
+  * [Artikeltext](#artikeltext)
   * [Metadaten](#metadaten)
-  * [Markdown-Syntax](#markdown-syntax)
   * [Literaturverzeichnis](#literaturverzeichnis)
   * [Zitieren mit Citekeys](#zitieren-mit-citekeys)
+  * [Markdown-Syntax](#markdown-syntax)
+  * [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
   * [Anhänge](#anhänge)
-* [Guidelines - Inhalt](#guidelines---inhalt)
+* [Guidelines - Inhalt](#inhaltliche-aspekte-der-artikelabschnitte)
   
 
 ## Übersicht über das Repository
@@ -43,9 +44,9 @@ Enthalten sind beispielhaft...
 Wie diese Beispieleinreichung als von der Redaktion generierter Beitrag aussieht, sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF-Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
 
 
-## Formate und Formatierungen
+## Abgabeformate und Formatierungshinweise
 
-#### Beitrag
+#### Artikeltext
 
 Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen.
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
@@ -54,14 +55,7 @@ Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seit
 
 Die Metadaten der Autor\*innen müssen in einer Metadatendatei im yaml-Format abgegeben werden (siehe Datei [`author_meta.yaml`](submission_template/author_meta.yaml) im Template). Bitte beachten Sie die im Template aufgeführten Hinweise. Zu den relevanten Metadaten gehören: Vorname, Nachname, ORCID, Affiliation, E-Mail-Adresse aller Autor\*innen, der Titel ihres Artikels sowie der Veranstaltungstyp bzw. das Lehrformat, für welches ihr Lehrkonzept entworfen wurde (Workshop, Proseminar etc.), die Anzahl der Sitzungen, auf die sich Ihr eingereichtes Lehrkonzept bezieht (zwei Workshoptage = zwei Sitzungen etc.) sowie 5 Keywords. Fügen Sie keine zusätzlichen Informationen hinzu.
 
- 
-#### Markdown-Syntax
 
-Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
-
-Sollten Sie nicht die Vorlage verwenden, achten Sie unabhängig von der Wahl des Editors darauf, die Fließtexte sowie ggf. die Tabelle als Markdown-Datei (mit der Dateiendung `.md`) zu speichern.
-
- 
 #### Literaturverzeichnis
 
 Die In-Text-Referenzen sowie das Literaturverzeichnis werden von der Redaktion automatisch generiert und im Zitationsstil “The Chicago Manual of Style” formatiert.
@@ -101,33 +95,29 @@ Weitere Hinweise zur Generierung von Citekeys in Citavi bzw. Zotero:
 Im Ordner [`submission_example`](submission_example) finden Sie einige Beispiele zur Nutzung von Citekeys.
 Bitte stellen Sie sicher, dass alle Citekeys, die sie nutzen, in ihrem Literaturverzeichnis vorhanden sind.
 
+ 
+#### Markdown-Syntax
+
+Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
+
+#### Anhänge
+
+Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>)". 
+Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
+ 
+
 #### Verweise zu Textabschnitten
 Für textinterne Verweise wie beispielsweise Verlinkungen zu Textabschnitten bitten wir Sie, diese gemäß den Konventionen der Markdown-Syntax zu erstellen. Für Textstellen wie “siehe Abs. Einführungstext”, die auf andere Abschnitte verweisen, können Sie Anker erstellen, indem Sie die zu verlinkende Textstelle in eckige Klammern (“[]”) setzen und das Ziel der Verlinkung in runde Klammern (“()”) setzen. In der Verlinkung werden Überschriften als sogenannte "Anker" referenziert, die durch ein vorangestelltes # und den Überschriftentext identifiziert werden.
 `[siehe Abschnitt](#zielüberschrift)` führt zu [siehe Abschnitt]() (mit Verlinkung zur Zielüberschrift).
 Wenn eine Überschrift mehrere Wörter enthält, wird der Anker automatisch aus dem Text der Überschrift generiert, wobei alle Leerzeichen durch Bindestriche ersetzt und Sonderzeichen entfernt oder angepasst werden. So wird beispielsweise aus der Überschrift 'Mein Abschnittstitel' der Anker #mein-abschnittstitel. Achten Sie daher darauf, die genaue Schreibweise des generierten Ankers zu verwenden, um eine korrekte Verlinkung sicherzustellen.
 Eine Anleitung für Verlinkungen auf Abschnitte mit einem ausfürhlichen Beispiel findet sich unter: https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#section-links
  
-#### Anhänge
 
-Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>)". 
-Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
 
-## Guidelines - Inhalt
+## Inhaltliche Aspekte der Artikelabschnitte
 
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
-- [Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”](#informationen-zu-ihrer-einreichung-zum-thema-textannotation-in-der-hochschullehre)
-  - [Übersicht über das Repository](#übersicht-über-das-repository)
-      - [Vorlagen](#vorlagen)
-      - [Beispiele](#beispiele)
-  - [Formate und Formatierungen](#formate-und-formatierungen)
-      - [Beitrag](#beitrag)
-      - [Metadaten](#metadaten)
-      - [Markdown-Syntax](#markdown-syntax)
-      - [Literaturverzeichnis](#literaturverzeichnis)
-      - [Zitieren mit Citekeys](#zitieren-mit-citekeys)
-      - [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
-      - [Anhänge](#anhänge)
   - [Guidelines - Inhalt](#guidelines---inhalt)
       - [1. Abstract](#1-abstract)
       - [2. Einführungstext](#2-einführungstext)
@@ -148,7 +138,7 @@ Beschreiben sie in bis zu 80 Wörtern die wichtigsten Aspekte Ihres Lehrkonzept.
 
 #### 2. Einführungstext
 
-**Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 600 Worten. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
+**Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 600 Wörtern. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
 
 
 
@@ -156,6 +146,7 @@ Beschreiben sie in bis zu 80 Wörtern die wichtigsten Aspekte Ihres Lehrkonzept.
 ##### 2.1 Rahmenbedingungen
 
 * Titel der Veranstaltung
+* Ziel der Veranstaltung/des Workshops/der vorgetellten Sitzungen 
 * Optional: Beschreibung der Schnittstelle Geisteswissenschaft + Informatik/DH (sofern vorhanden)
 * Typ der Veranstaltung und sofern anwendbar, Angabe der ECTS und die Art der Prüfungsleistung
 _Beispiele:_ Vorlesung, Übung, Blockseminar, Projekt, Workshop
