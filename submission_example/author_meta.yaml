@@ -3,7 +3,7 @@
 # Für ihre Einreichung füllen sie bitte nicht diese Datei sondern die Datei author_meta.yaml im submission_template Ordner aus.  
 
 
-# Fügen Sie hier den Titel ihrer Lehrveranstaltung ein
+# Fügen Sie hier den Titel ihres Beitrags in Anführungszeichen ein. 
 title: "Selbststudieneinheit: Textannotation (mit CATMA)"
 
 
@@ -24,10 +24,15 @@ affiliation:
 
 author:
 - affiliation: 1
-  email: fortext-hefte.de
-  given-names: fortext
-  orcid:
-  surname: hefte
+  email: redaktion@fortext-hefte.de
+  given-names: Akazawa
+  orcid: 0009-0007-2653-6275
+  surname: Mari
+- affiliation: 2
+  given-names: Janis
+  surname: von Keitz
+  email: technikredaktion@fortext-hefte.de
+
 
 # Zählen Sie hier die Autor*innen auf
 copyright_:
@@ -41,11 +46,11 @@ copyright_:
 # Weitere Metadaten
 
 tags: # Hier tragen sie 5 keywords ein
-  - keyword1
-  - keyword2
-  - keyword3
-  - keyword4
-  - keyword5
+  - Textannotation
+  - Digital Humanities
+  - Textanalyse
+  - Erzähltheorie
+  - Figurenanalyse
 
 va_type: Selbststudieneinheit
 no_type: 4

@@ -1,10 +1,14 @@
-# Informationen zu Ihrer Einreichung zum Thema “Textannotation in der Hochschullehre”
+## Übersicht über das Repository
 
-Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstellt. Den Ordner [`submission_template`](submission_template) können Sie als Vorlage nutzen, indem Sie diesen herunterladen und mit Ihren Inhalten und Informationen "befüllen". Alle notwendigen Dateien finden Sie dort in den vorgesehenen Formaten. Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite](https://www.fortext-hefte.de/site/guidelines/) unter Guidelines oder [hier](#guidelines---inhalt) in dieser README-Datei.
+In diesem Repository finden Sie Vorlagen und Beispiele für Ihre Einreichung sowie Guidelines zu den erforderlichen Artikelabschnitten.
+
+Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstellt. Nutzen Sie den Ordner [`submission_template`](submission_template) als Vorlage, indem Sie diesen herunterladen, mit Ihren Inhalten und Informationen "befüllen" und diesen dann anschließend als ZIP-Ordner auf unserem Publikationssystem hochladen. Alle notwendigen Dateien finden Sie dort in den vorgesehenen Formaten. 
+Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite](https://www.fortext-hefte.de/site/guidelines/) unter Guidelines oder [hier](#inhaltliche-aspekte-der-artikelabschnitte) in dieser README-Datei. Hinweise zu Formatierungen finden Sie unter ["Abgabeformate und Formatierungshinweise"](#abgabeformate-und-formatierungshinweise).
 
 * [Übersicht über das Repository](#übersicht-über-das-repository)
   * [Vorlagen](#vorlagen)
   * [Beispiele](#beispiele)
+* [Guidelines zur Einreichung von Lehrkonzepten](#guidelines-zur-einreichung-von-lehrkonzepten)
 * [Abgabeformate und Formatierungshinweise](#abgabeformate-und-formatierungshinweise)
   * [Artikeltext](#artikeltext)
   * [Metadaten](#metadaten)
@@ -13,12 +17,7 @@ Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstel
   * [Markdown-Syntax](#markdown-syntax)
   * [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
   * [Anhänge](#anhänge)
-* [Guidelines - Inhalt](#inhaltliche-aspekte-der-artikelabschnitte)
-  
-
-## Übersicht über das Repository
-
-In diesem Repository finden Sie Vorlagen und Beispiele für die benötigten Bestandteile Ihrer Einreichung. 
+* [Inhaltliche Aspekte der Artikelabschnitte](#inhaltliche-aspekte-der-artikelabschnitte)
 
 #### Vorlagen
 
@@ -44,11 +43,33 @@ Enthalten sind beispielhaft...
 Wie diese Beispieleinreichung als von der Redaktion generierter Beitrag aussieht, sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF-Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
 
 
+
+
+# Guidelines zur Einreichung von Lehrkonzepten
+
+Die Einreichungen der Lehrkonzepte müssen dem folgenden Aufbau folgen:
+
+1. Abstract
+2. Einführungstext
+3. Beschreibung des Gesamtablaufs
+4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops (als Tabelle)
+5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation
+6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen (ggf. mit Ideen oder Lösungsvorschlägen zur Überwindung der genannten Herausforderungen)
+7. Literaturverzeichnis, das die in der Veranstaltung genutzten Primär- und Sekundärtexte und evtl. weitere Referenzen enthält
+8. Optional: Anhänge (z.B. Handouts, Präsentationen, Lösungsvorschläge, Evaluationen)
+
+Detaillierte Erklärungen zu den Artikelabschnitten und den erwarteten Inhalten sind dem Punkt [Inhaltliche Aspekte der Artikelabschnitte](#inhaltliche-aspekte-der-artikelabschnitte) zu entnehmen.
+
+
+
 ## Abgabeformate und Formatierungshinweise
 
 #### Artikeltext
 
-Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- oder CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen.
+Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. 
+
+#### Tabellarische Sitzungsübersicht
+Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- *oder* CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen. Die Sitzungsübersicht wird von der technischen Redaktion im Zuge einer ersten formalen Prüfung in den Artikeltext eingefügt.
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
 #### Metadaten
@@ -118,18 +139,17 @@ Eine Anleitung für Verlinkungen auf Abschnitte mit einem ausfürhlichen Beispie
 
 Im folgenden stellen wir Ihnen Guidelines zur inhaltlichen Strukturierung Ihres Beitrags zur Verfügung. Die folgenden Guidelines finden Sie auch auf der [Seite der forTEXT-Hefte](https://www.fortext-hefte.de/site/guidelines/). Die Guidelines beziehen sich explizit auf den Inhalt. 
 
-  - [Guidelines - Inhalt](#guidelines---inhalt)
-      - [1. Abstract](#1-abstract)
-      - [2. Einführungstext](#2-einführungstext)
-        - [2.1 Rahmenbedingungen](#21-rahmenbedingungen)
-        - [2.2 Voraussetzungen der Teilnehmenden](#22-voraussetzungen-der-teilnehmenden)
-        - [2.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#23-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
-      - [3. Beschreibung des Gesamtablaufs](#3-beschreibung-des-gesamtablaufs)
-      - [4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#4-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
-      - [5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#5-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
-      - [6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#6-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
-        - [6.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#61-rahmenbedingungen--durchführung-der-veranstaltung)
-        - [6.2. Studierende](#62-studierende)
+- [1. Abstract](#1-abstract)
+- [2. Einführungstext](#2-einführungstext)
+  - [2.1 Rahmenbedingungen](#21-rahmenbedingungen)
+  - [2.2 Voraussetzungen der Teilnehmenden](#22-voraussetzungen-der-teilnehmenden)
+  - [2.3 Durchführung der Lehrveranstaltung (in Bezug auf das eingereichte Lehrkonzept)](#23-durchführung-der-lehrveranstaltung-in-bezug-auf-das-eingereichte-lehrkonzept)
+- [3. Beschreibung des Gesamtablaufs](#3-beschreibung-des-gesamtablaufs)
+- [4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle](#4-sitzungsübersicht-bei-semesterplänen-oder-ablaufübersicht-bei-kleineren-lehrformaten-wie-blockseminaren-oder-workshops-als-tabelle)
+- [5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation](#5-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation)
+- [6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen](#6-reflexion-des-lehrkonzepts-gelungene-ansätze-und-herausforderungen)
+  - [6.1. Rahmenbedingungen \& Durchführung der Veranstaltung](#61-rahmenbedingungen--durchführung-der-veranstaltung)
+  - [6.2. Studierende](#62-studierende)
 
 
 
@@ -138,9 +158,8 @@ Beschreiben sie in bis zu 80 Wörtern die wichtigsten Aspekte Ihres Lehrkonzept.
 
 #### 2. Einführungstext
 
-**Inhalt:** Beschreiben Sie die Veranstaltung in bis zu 600 Wörtern. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
-
-
+Beschreiben Sie die Veranstaltung in bis zu 600 Wörtern. Dieser Text soll insbesondere die Rahmenbedingungen sowie die Voraussetzungen der Teilnehmenden beleuchten. Bitte gehen sie in Fließtextform daher auf die folgenden Punkte zu ihrer Lehrveranstaltung ein.
+Es ist Ihnen freigestellt, ob Sie diesen Abschnitt in die entsprechenden Unterpunkte gliedern oder nicht.
 
 
 ##### 2.1 Rahmenbedingungen
@@ -189,7 +208,7 @@ _Beispiel 2:_ “Das vorgestellte Seminar wird mit einer Studienleistung abgesch
 #### 3. Beschreibung des Gesamtablaufs
 
 
-In diesem Teil ihrer Einreichungen beschreiben sie kurz und prägnant den Gesamtablauf des eingereichten Lehrkonzepts in bis zu 600 Worten. 
+In diesem Teil ihrer Einreichungen beschreiben sie kurz und prägnant den Gesamtablauf des eingereichten Lehrkonzepts in bis zu 600 Wörtern. 
 Dieser Abschnitt soll einen Gesamtüberblick über den Verlauf des vorgestellten Lehrkonzepts geben. 
 Unter Punkt [4. Sitzungsbeschreibungen](#4-detaillierte-darstellung-der-sitzungen-bzw-einheiten-zum-thema-textannotation) haben Sie die Möglichkeit, die einzelnen Sitzungen/Einheiten/Arbeitsblöcke im Detail zu beschreiben.
 Gehen Sie in diesem Abschnitt auf die Lerninhalte und die zu vermittelnden Kompetenzen in den Einheiten ihres Lehrkonzepts ein.
@@ -203,7 +222,6 @@ _Beispiel 2:_ "Die Selbststudieneinheit zielt darauf ab, die Lerninhalte Narrat
 
 #### 4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops als Tabelle
 
-**Inhalt:** 
 Die Sitzungsübersicht dient als Übersicht Ihres Lehrkonzepts. Und soll Leser*innen einen schnellen Überblick über die Strukturierung ihrer Einheiten ermöglichen. Im darauf folgenden Schritt haben sie die Möglichkeit, ihre Sitzungen im Detail zu beschreiben. Bitte füllen Sie die Tabelle daher stichpunktartig in chronologischer Reihenfolge aus.
 Lektüre, Videos und andere Inhalte geben Sie durch die Nutzung von Citekeys an. Diese Citekeys müssen auch in ihrem Literaturverzeichnis vorhanden sein.
 Hinweis zur Formatierung: Aufzählungselemente sind durch ein “;” zu trennen.
@@ -282,7 +300,9 @@ Gehen Sie auch gerne auf Feedback ein, das Sie im Zuge der Durchführung Ihrer V
 
 _Beispiel:_ “Insgesamt bin ich zufrieden mit dem Verlauf der Selbststudieneinheit sowie der aktiven Beteiligung der Studierenden. Meine Bedenken, dass die geplanten Zeitabschnitte für Arbeitsaufgaben und Plenumsdiskussionen zu eng getaktet sein könnten, hatten sich nicht bestätigt. Dies lag vor allem daran, dass ich die Zeitplanung durchgängig im Blick hatte und Diskussionen so moderierte, dass wir den Zeitrahmen einhielten.
 Retrospektiv konnte ich feststellen, dass die Vierteilung des Lehrprojekts eine gute Idee war und die Studierenden das Angebot einer asynchronen Selbststudieneinheit anstelle einer synchronen Sitzung gut annahmen. [...]”
-Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden für Ihr Konzept relevant sein. Sie müssen daher nicht auf alle Punkte eingehen und können einzelne je nach Relevanz in Bezug auf ihre Erfahrungen detaillierter ausführen als andere:
+
+
+Orientieren Sie sich gerne an den folgenden Punkten. Nicht alle Punkte werden für Ihr Konzept relevant sein. Sie müssen daher nicht auf alle Punkte eingehen und können einzelne je nach Relevanz in Bezug auf ihre Erfahrungen detaillierter ausführen als andere. Es ist Ihnen freigestellt, ob Sie diesen Abschnitt in die folgenden Unterpunkte gliedern oder nicht:
 
 
 ##### 6.1. Rahmenbedingungen & Durchführung der Veranstaltung

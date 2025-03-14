@@ -18,6 +18,9 @@ Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.
 
 # Gesamtablauf
 
+# Tabellarische Sitzungs-/Ablaufübersicht
+_An dieser Stelle wird später Ihre Markdown- bzw. CSV-Tabelle von der Redaktion eingefügt._
+_Bitte legen Sie die Übersicht als separate CSV- oder Markdown-Datei mit dem Titel "table.md" oder "table.csv" in Ihrem Abgabeordner ab._
 
 # Sitzungen im Detail
 

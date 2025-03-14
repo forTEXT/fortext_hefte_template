@@ -5,8 +5,7 @@
 # !!! Fügen sie keine neuen Felder hinzu, benennen sie die bestehenden nicht um und löschen Sie keine Felder, wenn dies nicht 
 # !!! explizit in der Beschreibung des Feldes gefordert ist.
 
-# Fügen Sie hier den Titel ihres Beitrags ein. 
-# Falls Sie einen Doppelpunkt (:) in ihrem Titel verwenden, setzen sie den gesamten Titel in Anführungszeichen ("Titel").
+# Fügen Sie hier den Titel ihres Beitrags in Anführungszeichen ein. 
 title: "Titel des Beitrags: Textannotation in der Hochschullehre"
 
 
@@ -62,7 +61,7 @@ va_type: # Veranstaltungstyp z.B. Workshop, Mehrere Sitzungen einer Lehrveransta
 no_type: # Anzahl der Sitzungen in Tagen z.B. eintägiger Workshop == 1 etc.
 
 # Anhänge
-# Dieser Abschnitt  enthält eine Liste der Anhänge.
+# Dieser Abschnitt enthält eine Liste der Anhänge.
 # Wichtige Hinweise zur Bearbeitung:
 # - Jeder Anhang muss in einer neuen Zeile mit einem Bindestrich (-) beginnen.
 # - Für jeden Anhang müssen die Felder "title", "year" und "author" angegeben werden.
