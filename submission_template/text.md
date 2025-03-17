@@ -8,7 +8,7 @@
 4. [Elemente der Lehreinheit](#elemente-der-lehreinheit)
 5. [Reflexion](#reflexion)
 
-Pro Artikelabschnitt folgen nun Beispieltexte, die Sie für Ihre Einreichung entsprechend löschen und ersetzen.
+Pro Artikelabschnitt folgen nun Hinweise zu Inhalten sowie Beispieltexte. Bitte löschen bzw. ersetzen Sie sowohl die Hinweise als auch die Beispieltexte für Ihre Einreichung.
 
 
 # Abstract
