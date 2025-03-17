@@ -31,18 +31,6 @@ Verwenden Sie...
 Für Anhänge erstellen Sie einen Ordner "Anhänge", in welchen Sie alle weiteren Dateien im PDF-Format legen.
 Alle Dateien reichen Sie dann komprimiert als ZIP-Ordner ein. 
 
-#### Beispiele
-
-Neben den Vorlagen finden Sie im Ordner [`submission_example`](submission_example) die entsprechenden Dateien ausgefüllt als Beispiele.
-Enthalten sind beispielhaft...
-* ein Beitragstext ([`example_text.md`](submission_example/example_text.md)), 
-* eine Sitzungsübersicht als Markdown-Datei ([`example_table.md`](submission_example/example_table.md) und als CSV-Datei ([`example_table.csv`](submission_example/example_table.csv))),
-* eine Bibliographiedatei ([`example_bib.json`](submission_example/example_bib.json)),
-* eine Datei mit Metadaten zu den Autor*innen ([`example_author_meta.yaml`](submission_example/example_author_meta.yaml)). 
-
-Wie diese Beispieleinreichung als von der Redaktion generierter Beitrag aussieht, sehen Sie in [`example_publication.pdf`](submission_example/example_publication.pdf) (Hinweis: Sie reichen _keine_ PDF-Datei des fertigen Beitrags ein, diese wird von der Redaktion generiert).  
-
-
 
 
 # Guidelines zur Einreichung von Lehrkonzepten
@@ -85,7 +73,7 @@ Sie müssen daher eine Datei einreichen, die alle Referenzen, die Sie im Fließt
 
 Sie können Ihr Literaturverzeichnis als BibLaTeX- (```bibliography.bib```), BiBTeX- (```bibliography.bibtex```) oder als CSL JSON-Datei (```bibliography.json```) einreichen. Die vollständigen bibliografischen Metadaten (wie Vorname, Nachname aller Autor\*innen und Herausgeber*innen, Publikationsort, URL, DOI etc.) müssen in Ihrer BibTeX-Datei sauber und vollständig hinterlegt sein.
 
-Beispielhafte Literaturverzeichnis-Dateien sind [`example_bibliography.bib`](submission_example/example_bibliography.bib) und [`example_bibliography.json`](submission_example/example_bibliography.json). Für Ihre Einreichung tragen Sie Ihre Daten in eine der entsprechenden Dateien im [Template Ordner](submssion_template) ein. Alternativ können Sie eine solche Datei auch in Ihrem Literaturverwaltungsprogramm automatisiert generieren lassen. Bitte achten Sie auch hier darauf, die Dateinamen (```bibliography.bib```bzw. ```bibliography.json```) nicht zu verändern. 
+Für Ihre Einreichung tragen Sie Ihre Daten in eine der entsprechenden Dateien im [Template Ordner](submssion_template) ein. Alternativ können Sie eine solche Datei auch in Ihrem Literaturverwaltungsprogramm automatisiert generieren lassen. Bitte achten Sie auch hier darauf, die Dateinamen (```bibliography.bib```bzw. ```bibliography.json```) nicht zu verändern. 
 
 _Hinweis_: Es ist nicht nötig, dass Sie am Ende Ihres Fließtextes eine Referenzliste aufführen. 
 
@@ -112,9 +100,6 @@ Weitere Hinweise zur Generierung von Citekeys in Citavi bzw. Zotero:
 
 * Citavi und Citation Keys: https://www1.citavi.com/sub/manual6/en/index.html?cse_customizing_citation_keys.html
 * Better BibTeX Zotero: https://retorque.re/zotero-better-bibtex/citing/
-
-Im Ordner [`submission_example`](submission_example) finden Sie einige Beispiele zur Nutzung von Citekeys.
-Bitte stellen Sie sicher, dass alle Citekeys, die sie nutzen, in ihrem Literaturverzeichnis vorhanden sind.
 
  
 #### Markdown-Syntax
