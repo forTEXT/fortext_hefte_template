@@ -1,6 +1,6 @@
 # Hinweis zur Nutzung des Markdown Formats
 
-Markdown ist eine Auszeichnungssprache, mit der sich Texte klar strukturiert und leicht lesbar formatieren lassen. 
+Markdown ist eine Auszeichnungssprache, mit der sich Texte klar strukturiert und leicht lesbar formatieren lassen. Dieses Dokument enthält Beispiele für typische Markdown Formatierungen. Um diese nachvollziehen zu können sollten Sie das Dokument in einem passenden Editor öffnen, um sowohl den Rohtext mit den verwendeten Markdown-Symbolen als auch die finale Darstellung zu sehen. So wird ersichtlich, mit welchen Zeichen die Formatierung erfolgt und wie das Ergebnis aussieht.
 
 ## Markdown Editoren
 
@@ -43,7 +43,10 @@ Beispiel 3: Hier funktioniert der ** Fettdruck nicht ** , weil Leerzeichen zwisc
 
 
 ## Links
-Zur Verlinkung von Textstellen, setzen sie das zu verlinkende Textelement in eckige Klammern, gefolgt vom jeweiligen Link mit Raute in runden Klammern.
+Zur Verlinkung von Textstellen, setzen sie das zu verlinkende Textelement in eckige Klammern gefolgt vom Ziel des Links in runden Klammern.
+
+Für eine Verlinkung auf eine externe Seite entspricht das Ziel der URL der Seite.
+Beispiel: [TU Darmstadt-Seite](https://www.tu-darmstadt.de)
 
 Beispiel: 
 So verlinke ich eine externe Seite [TU Darmstadt-Seite](https://www.tu-darmstadt.de). 
