@@ -95,5 +95,7 @@ Ein In-Text Verweis mit einem Citekey beginnt grundsätzlich mit einem @. Darüb
 Weiter Hinweise zur Nutzung von Citekeys finden sie hier: https://pandoc.org/chunkedhtml-demo/8.20-citation-syntax.html
 
 ## Gender-Zeichen
+Bei der Verwendung eines Gender-Sternchens (*) muss ein sogenanntes Escape-Zeichen verwendet werden, damit das Sternchen nicht als Formatierung erkannt wird. Dieses Escape-Zeichen ist hier ein Backslash `\`. Dieser wird im finalen Dokument nicht mehr sichtbar sein.
 
+Beispiel: Wissenschaftler\*innen
 
