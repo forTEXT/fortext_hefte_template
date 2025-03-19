@@ -7,17 +7,18 @@ Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite]
 
 * [Übersicht über das Repository](#übersicht-über-das-repository)
   * [Vorlagen](#vorlagen)
-  * [Beispiele](#beispiele)
 * [Guidelines zur Einreichung von Lehrkonzepten](#guidelines-zur-einreichung-von-lehrkonzepten)
-* [Abgabeformate und Formatierungshinweise](#abgabeformate-und-formatierungshinweise)
-  * [Artikeltext](#artikeltext)
-  * [Metadaten](#metadaten)
-  * [Literaturverzeichnis](#literaturverzeichnis)
-  * [Zitieren mit Citekeys](#zitieren-mit-citekeys)
-  * [Markdown-Syntax](#markdown-syntax)
-  * [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
-  * [Anhänge](#anhänge)
-* [Inhaltliche Aspekte der Artikelabschnitte](#inhaltliche-aspekte-der-artikelabschnitte)
+  * [Umfang](#umfang)
+  * [Tempus](#tempus)  
+  * [Abgabeformate und Formatierungshinweise](#abgabeformate-und-formatierungshinweise)
+    * [Artikeltext](#artikeltext)
+    * [Metadaten](#metadaten)
+    * [Literaturverzeichnis](#literaturverzeichnis)
+    * [Zitieren mit Citekeys](#zitieren-mit-citekeys)
+    * [Markdown-Syntax](#markdown-syntax)
+    * [Verweise zu Textabschnitten](#verweise-zu-textabschnitten)
+    * [Anhänge](#anhänge)
+  * [Inhaltliche Aspekte der Artikelabschnitte](#inhaltliche-aspekte-der-artikelabschnitte)
 
 #### Vorlagen
 
@@ -49,6 +50,18 @@ Die Einreichungen der Lehrkonzepte müssen dem folgenden Aufbau folgen:
 Detaillierte Erklärungen zu den Artikelabschnitten und den erwarteten Inhalten sind dem Punkt [Inhaltliche Aspekte der Artikelabschnitte](#inhaltliche-aspekte-der-artikelabschnitte) zu entnehmen.
 
 
+#### Umfang
+Einreichungen sind sowohl für ganze Semesterpläne als auch für kleinere Lehrformate (z.B. Workshops, mehrere Sitzungen eines Seminars zum Thema, Hackathons etc.) möglich. Der Umfang des Beitrags sowie die Wortzahl der einzelnen Bestandteile hängen daher stark vom eingereichten Lehrformat ab. Grundsätzlich sollte Ihre Einreichung einen Umfang von 5200 Wörtern nicht wesentlich überschreiten. Die folgenden Angaben zum Umfang dienen Ihnen als Orientierung. Pro Rubrik sollte die angegebene Wortzahl nicht wesentlich überschritten werden:
+ 
+- Abstract: maximal 80 Wörter
+- Einführungstext: maximal 600 Wörter
+- Gesamtablauf: maximal 600 Wörter
+- Sitzungsablauf: maximal 2500 Wörter
+- Reflexion: maximal 1200 Wörter
+
+#### Tempus
+Alle Lehrkonzepte sollen sich zur Nachnutzung eignen und Instruktionscharakter haben. Bitte verfassen Sie Ihren Beitrag daher im Präsens. Den Reflexionsteil und einzelne Punkte der Rahmenbedingungen in der Einleitung (bspw. wann und wo das Lehrkonzept bereits durchgeführt wurde) können Sie im Perfekt darstellen. 
+
 
 ## Abgabeformate und Formatierungshinweise
 
@@ -60,6 +73,7 @@ Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen
 Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- *oder* CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen. Die Sitzungsübersicht wird von der technischen Redaktion im Zuge einer ersten formalen Prüfung in den Artikeltext eingefügt.
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
+
 #### Metadaten
 
 Die Metadaten der Autor\*innen müssen in einer Metadatendatei im yaml-Format abgegeben werden (siehe Datei [`author_meta.yaml`](submission_template/author_meta.yaml) im Template). Bitte beachten Sie die im Template aufgeführten Hinweise. Zu den relevanten Metadaten gehören: Vorname, Nachname, ORCID, Affiliation, E-Mail-Adresse aller Autor\*innen, der Titel ihres Artikels sowie der Veranstaltungstyp bzw. das Lehrformat, für welches ihr Lehrkonzept entworfen wurde (Workshop, Proseminar etc.), die Anzahl der Sitzungen, auf die sich Ihr eingereichtes Lehrkonzept bezieht (zwei Workshoptage = zwei Sitzungen etc.) sowie 5 Keywords. Fügen Sie keine zusätzlichen Informationen hinzu.
