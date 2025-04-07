@@ -5,8 +5,9 @@
 1. [Abstract](#abstract)
 2. [Einführung](#einführung)
 3. [Gesamtablauf](#gesamtablauf)
-4. [Elemente der Lehreinheit](#elemente-der-lehreinheit)
-5. [Reflexion](#reflexion)
+4. [Tabellarische Sitzungs-/Ablaufübersicht](#tabellarische-sitzungs-ablaufübersicht)
+5. [Elemente der Lehreinheit](#elemente-der-lehreinheit)
+6. [Reflexion](#reflexion)
 
 Pro Artikelabschnitt folgen nun Hinweise zu Inhalten sowie Beispieltexte. Bitte löschen bzw. ersetzen Sie sowohl die Hinweise als auch die Beispieltexte für Ihre Einreichung.
 
