@@ -56,11 +56,13 @@ Beispiel: [Dieser Link führt zur ersten Überschrift](#hinweis-zur-nutzung-des-
 Hinweis: Unabhängig, ob es sich um eine H1, H2, H3, ... Überschrift handelt, wird für den Anker eine Raute (#) verwendet.
   
 ## Fußnoten
-Verweise auf Fußnoten werden in Markdwon ebenfalls in eckige Klammern geschrieben. In der Klammer steht ein Dachsymbol/ Zirkumflex (^) gefolgt von der Zahl der Fußnote. Der Inhalt der Fußnote wird nach der entsprechenden Referenz am Ende des Dokuments definiert. Dabei beginnt die Definition mit demselben Dachsymbol und der Nummer, gefolgt von einem Doppelpunkt und dem Text der Fußnote.
+Verweise auf Fußnoten werden in Markdwon ebenfalls in eckige Klammern geschrieben. In der Klammer steht ein Dachsymbol/ Zirkumflex (^) gefolgt von der Zahl der Fußnote. Der Inhalt der Fußnote wird erst ganz am Ende (!) des Dokuments definiert. Dabei beginnt die Definition mit demselben Dachsymbol und der Nummer, gefolgt von einem Doppelpunkt und dem Text der Fußnote.
 
 Beispiel:
 
 Dies ist ein Satz mit einer Fußnote[^1].
+
+... Hier folgt der weitere Text des Dokuments ...
 
 [^1]: Hier steht der Inhalt der Fußnote.
 
