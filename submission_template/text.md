@@ -7,11 +7,11 @@ Ihr Abstract sollte kurz und knapp die wichtigsten Aspekte des vorgestellten Leh
 
 # Inhaltsverzeichnis
 
-1. [Einführung](#einführung)
-2. [Gesamtablauf](#gesamtablauf)
-3. [Tabellarische Sitzungs-/ Ablaufübersicht](#tabellarische-sitzungs-ablaufübersicht)
-4. [Elemente der Lehreinheit](#elemente-der-lehreinheit)
-5. [Reflexion](#reflexion)
+1. Einführung
+2. Gesamtablauf
+3. Tabellarische Sitzungs-/ Ablaufübersicht
+4. Elemente der Lehreinheit
+5. Reflexion
 
 Pro Artikelabschnitt folgen nun Hinweise zu Inhalten sowie Beispieltexte. Bitte löschen bzw. ersetzen Sie sowohl die Hinweise als auch die Beispieltexte für Ihre Einreichung.
 

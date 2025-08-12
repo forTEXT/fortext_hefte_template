@@ -22,6 +22,8 @@ affiliation:
 # Sollte es sich nur um eine Person handeln, löschen sie die Platzhalter für weitere Einträge, die mit "- affiliation:" beginnen
 # Für jede Affiliation wird eine oben definierte ID gesetzt.
 # Für AutorInnen ohne Affiliation bleibt das Feld bestehen, es wird aber keine Zahl gesetzt 
+# Bitte nennen Sie den/die Erstautor*in zuerst
+
 author:
 - affiliation: 1
   email: Mailadresse
@@ -69,20 +71,12 @@ no_type: # Anzahl der Sitzungen in Tagen z.B. eintägiger Workshop == 1 etc.
 # - Falls zusätzliche Anhänge hinzugefügt werden, müssen sie nach demselben Muster ergänzt werden.
 
 appendices:
-  - title: "Foliensatz: Literarische Textannotation (mit CATMA)"
+  - title: "enter your title here"
     year: 2024
-    author: fortext
-  - title: "Foliensatz: Figurenanalyse"
+    author: name of the author here
+  - title: "enter your title here"
     year: 2024
-    author: fortext
-
-
-
-
-
-
-
-
+    author: name of the author here
 
 
 
@@ -104,26 +98,42 @@ appendices:
 
 
 # Ab hier ist keine weitere Bearbeitung notwendig.
-issuetitle: Textannotation in der Hochschullehre
+
 journal:
 - container-title: forTEXT
   publisher-loc: Darmstadt
   publisher-name: Universitäts- und Landesbibliothek Darmstadt
   title: forTEXT
+  eissn: 2943-212X
 license:
-- link: https://creativecommons.org/licenses/by-sa/4.0/
-  text: '>-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-    International License.'
+- link: https://creativecommons.org/licenses/by/4.0/
+  text: '>-This work is licensed under a Creative Commons Attribution 4.0 International License.'
   type: open-access
-container-title: forTEXT Heft
+container-title: forTEXT
 type: article-journal
-volume: 2
-issue: 13
 article:
   doi: 
-date:
+  volume: 3
+  issue: 1
+  issuetitle: Textannotation in der Hochschullehre
+  beitragstyp:
+  date:
+    iso-8601: 
+    year: 2026
+
+history:
+  received: 
+    iso-8601: 
+    year: 2026
+  accepted: 
+    iso-8601: 
+    year: 2026
 reviewers:
 - name:
   email:
+  orcid:
 - name:
   email:
+  orcid:
+
+  
