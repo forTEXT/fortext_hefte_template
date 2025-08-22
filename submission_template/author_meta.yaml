@@ -26,19 +26,22 @@ affiliation:
 
 author:
 - affiliation: 1
-  email: Mailadresse
   given-names: Vorname1
-  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
   surname: Nachname1
+  email: Mailadresse
+  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
+  social-media-handles: ["blueskyhandle","mastodonusername"]
+
 - affiliation: 2
   email: Mailadresse2
   given-names: Vorname2
   surname: Nachname2
 - affiliation: 1
-  email: Mailadresse
   given-names: Vorname3
-  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
   surname: Nachname3
+  email: Mailadresse
+  orcid: Orcid oder Zeile löschen wenn nicht vorhanden
+  social-media-handles: ["blueskyhandle","mastodonusername"]
 
 
 # Zählen Sie hier die Autor*innen auf
@@ -77,7 +80,6 @@ appendices:
   - title: "enter your title here"
     year: 2024
     author: name of the author here
-
 
 
 

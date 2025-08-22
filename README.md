@@ -3,13 +3,13 @@
 In diesem Repository finden Sie Vorlagen und Beispiele für Ihre Einreichung sowie Guidelines zu den erforderlichen Artikelabschnitten.
 
 Beiträge werden unter der Verwendung des hier bereitgestellten Templates erstellt. Nutzen Sie den Ordner [`submission_template`](submission_template) als Vorlage, indem Sie diesen herunterladen, mit Ihren Inhalten und Informationen "befüllen" und diesen dann anschließend als ZIP-Ordner auf unserem Publikationssystem hochladen. Alle notwendigen Dateien finden Sie dort in den vorgesehenen Formaten. 
-Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite](https://www.fortext-hefte.de/site/guidelines/) unter Guidelines oder [hier](#inhaltliche-aspekte-der-artikelabschnitte) in dieser README-Datei. Hinweise zu Formatierungen finden Sie unter ["Abgabeformate und Formatierungshinweise"](#abgabeformate-und-formatierungshinweise).
+Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf der forTEXT Seite unter [Guidenlies zur Einreichung von Lehrkonzepten](https://www.fortext-hefte.de/site/guidelines/) oder [auf dieser Seite unter folgendem Abschnitt](#inhaltliche-aspekte-der-artikelabschnitte). Hinweise zu Formatierungen finden Sie unter ["Abgabeformate und Formatierungshinweise"](#abgabeformate-und-formatierungshinweise).
 
 * [Übersicht über das Repository](#übersicht-über-das-repository)
   * [Vorlagen](#vorlagen)
 * [Guidelines zur Einreichung von Lehrkonzepten](#guidelines-zur-einreichung-von-lehrkonzepten)
   * [Umfang](#umfang)
-  * [Tempus](#tempus)  
+  * [Sprache und Tempus](#sprache-und-tempus)  
   * [Abgabeformate und Formatierungshinweise](#abgabeformate-und-formatierungshinweise)
     * [Artikeltext](#artikeltext)
     * [Metadaten](#metadaten)
@@ -24,7 +24,7 @@ Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf [der forTEXT Seite]
 
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
-* für den Beitragstext die Datei [`text.md`](submission_template/text.md),
+* für den Beitragstext die Datei [`text.docx`](submission_template/text.docx),
 * für die SItzungsübersicht bzw. den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/table.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
 * für die Bibiographie [`bibliography.json`](submission_template/bibliography.json), [`bibliography.bib`](submission_template/bibliography.bib) oder eine äquivalente Datei mit dem Suffix '.bibtex',
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
@@ -59,17 +59,19 @@ Einreichungen sind sowohl für ganze Semesterpläne als auch für kleinere Lehrf
 - Sitzungsablauf: maximal 2500 Wörter
 - Reflexion: maximal 1200 Wörter
 
-#### Tempus
-Alle Lehrkonzepte sollen sich zur Nachnutzung eignen und Instruktionscharakter haben. Bitte verfassen Sie Ihren Beitrag daher im Präsens. Den Reflexionsteil und einzelne Punkte der Rahmenbedingungen in der Einleitung (bspw. wann und wo das Lehrkonzept bereits durchgeführt wurde) können Sie im Perfekt darstellen. 
+#### Sprache und Tempus
+Alle Lehrkonzepte sollen sich zur Nachnutzung eignen und Instruktionscharakter haben. Bitte verfassen Sie Ihren Beitrag daher im Präsens. Den Reflexionsteil und einzelne Punkte der Rahmenbedingungen in der Einleitung (bspw. wann und wo das Lehrkonzept bereits durchgeführt wurde) können Sie im Perfekt darstellen.
+Achten Sie insgesamt bitte darauf einfache Satzstrukturen zu nutzen, Passivkonstruktionen zu vermeiden, Fachbegriffe und Abkürzungen bei Erstnennung zu erklären und Begriffe einheitlich zu verwenden (z.B. durchgängig “Seminar” oder “Lehrveranstaltung”). 
 
 
 ## Abgabeformate und Formatierungshinweise
 
 #### Artikeltext
 
-Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Markdowndatei mit dem Namen ```text.md``` (siehe [Template](submission_template/text.md) unter der jeweiligen Überschrift einzufügen. Ändern Sie die Überschriften nicht. 
+Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Docx-Datei mit dem Namen ```text.docx``` (siehe [Template](submission_template/text.docx) unter der jeweiligen Überschrift einzufügen. 
 
 #### Tabellarische Sitzungsübersicht
+
 Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- *oder* CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen. Die Sitzungsübersicht wird von der technischen Redaktion im Zuge einer ersten formalen Prüfung in den Artikeltext eingefügt.
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
@@ -115,16 +117,16 @@ Weitere Hinweise zur Generierung von Citekeys in Citavi bzw. Zotero:
 * Citavi und Citation Keys: https://www1.citavi.com/sub/manual6/en/index.html?cse_customizing_citation_keys.html
 * Better BibTeX Zotero: https://retorque.re/zotero-better-bibtex/citing/
 
- 
-#### Markdown-Syntax
-
-Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
-
 #### Anhänge
 
 Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>)". 
 Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
  
+ 
+#### Markdown-Syntax
+
+Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
+
 
 #### Verweise zu Textabschnitten
 Für textinterne Verweise wie beispielsweise Verlinkungen zu Textabschnitten bitten wir Sie, diese gemäß den Konventionen der Markdown-Syntax zu erstellen. Für Textstellen wie “siehe Abs. Einführungstext”, die auf andere Abschnitte verweisen, können Sie Anker erstellen, indem Sie die zu verlinkende Textstelle in eckige Klammern (“[]”) setzen und das Ziel der Verlinkung in runde Klammern (“()”) setzen. In der Verlinkung werden Überschriften als sogenannte "Anker" referenziert, die durch ein vorangestelltes # und den Überschriftentext identifiziert werden.
@@ -164,7 +166,7 @@ Es ist Ihnen freigestellt, ob Sie diesen Abschnitt in die entsprechenden Unterpu
 ##### 2.1 Rahmenbedingungen
 
 * Titel der Veranstaltung
-* Ziel der Veranstaltung/des Workshops/der vorgetellten Sitzungen 
+* Ziel der Veranstaltung/des Workshops/der vorgestellten Sitzungen 
 * Optional: Beschreibung der Schnittstelle Geisteswissenschaft + Informatik/DH (sofern vorhanden)
 * Typ der Veranstaltung und sofern anwendbar, Angabe der ECTS und die Art der Prüfungsleistung
 _Beispiele:_ Vorlesung, Übung, Blockseminar, Projekt, Workshop
@@ -231,10 +233,10 @@ Hinweis zur Formatierung: Aufzählungselemente sind durch ein “;” zu trennen
 
 
 
-| Einheit |	Modus |	Thema |	Inhalt | (Lern-)ziel(e) | Vorbereitung	Für Lehrende | Abgabe/Aufgabe |
-|---------|-------|-------|--------|----------------|----------------------------|----------------|
-| 1       |	synchron; online |	Einführungssitzung | Einführungsfolien und Semesterplan vorstellen | 	Überblick zum Semester | - | - | 
-| 10:00-11:00 |	synchron; präsenz |	Einführungseinheit | Tool X vorstellen und Kenntnisstand der Studierenden abfragen | Hauptfunktionen von Tool X kennenlernen und beherrschen | - | - |
+| Einheit |	Modus |	Thema |	Inhalt | (Lern-)ziel(e) | Vorbereitung für Studierende | Vorbereitung	Für Lehrende | Arbeitsauftrag |
+|---------|-------|-------|--------|----------------|-------------------------------|----------------------------|----------------|
+| 1       |	synchron; online |	Einführungssitzung | Einführungsfolien und Semesterplan vorstellen | 	Überblick zum Semester | - | Powerpoint-Präsentation vorbereiten | - |
+| 10:00-11:00 |	synchron; präsenz |	Einführungseinheit | Tool X vorstellen und Kenntnisstand der Studierenden abfragen | Hauptfunktionen von Tool X kennenlernen und beherrschen | - | - | - |
 
 
 
@@ -256,13 +258,13 @@ _Beispiele:_ “Organisatorisches, Theoretische Einführung in CATMA”, “Semi
 * <ins>Spalte 5 (Lern-)ziel(e))</ins>  
 Nennen Sie das Lernziel der SItzung/Einheit
 _Beispiele:_ “Visualisierungsmöglichkeiten von CATMA lernen”, “Texte im Tool CATMA hochladen”, Grundlagen der Figurenanalyse verstehen und anwenden”
-* <ins>Spalte 6 (Vorbereitung)</ins>  
+* <ins>Spalte 6 (Vorbereitung für Studierende)</ins>  
 Zählen Sie die Inhalte auf, die die Studierenden bis zu dieser Sitzung/Einheit vorbereiten sollen (Recherche, Lesen, Videos anschauen). Benennen Sie diese Inhalte explizit, indem sie Citekeys aufführen 
 Beispiele: “Lesen des Kapitels 2.3. zu Narratologie in @fortextetal2026”, “Kontoeinrichtung auf catma.de” 
-* <ins>Spalte 7 (Für Lehrende)</ins>  
+* <ins>Spalte 7 (Lehrvorbereitung)</ins>  
 Zählen Sie Inhalte wie (weiterführende) Literatur oder Webseiten auf, die für Lehrende für diese Sitzung relevant sind. Zählen Sie diese durch Citekeys und/oder verlinkte Schlagwörter nach Markdownsyntax auf.
 Beispiele: “@fortext2026, @hander2026”, “\[Podiumsdiskussion](www.annolehren345.de)”
-* <ins>Spalte 8 (Abgabe/Aufgabe)</ins>  
+* <ins>Spalte 8 (Arbeitsauftrag)</ins>  
 Beschreiben Sie die Auf- bzw. Abgabe, die in dieser Sitzung/Einheit aufgetragen wird und nennen Sie die Sitzungsnummer/-einheit, zu welcher diese fällig ist. Nummerieren Sie die Abgabe/Aufgabe gegebenenfalls.
 Die ausführliche Aufgabenstellung können Sie unter Punkt 4 (“Sitzungsbeschreibungen”) in der detaillierten Sitzungsbeschreibung aufführen.
 _Beispiele:_ “Abgabe 1: Textzusammenfassung bis Sitzung 9”

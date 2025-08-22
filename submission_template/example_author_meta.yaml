@@ -26,8 +26,9 @@ author:
 - affiliation: 1
   email: redaktion@fortext-hefte.de
   given-names: Akazawa
-  orcid: 0009-0007-2653-6275
   surname: Mari
+  orcid: 0009-0007-2653-6275
+  social-media-handles: ["fortextlab.bsky.social"]
 - affiliation: 2
   given-names: Janis
   surname: von Keitz
@@ -78,27 +79,42 @@ appendices:
 
 
 
+
 # Ab hier ist keine weitere Bearbeitung notwendig.
-issuetitle: Textannotation in der Hochschullehre
+
 journal:
 - container-title: forTEXT
   publisher-loc: Darmstadt
   publisher-name: Universitäts- und Landesbibliothek Darmstadt
   title: forTEXT
+  eissn: 2943-212X
 license:
-- link: https://creativecommons.org/licenses/by-sa/4.0/
-  text: '>-This work is licensed under a Creative Commons Attribution-ShareAlike 4.0
-    International License.'
+- link: https://creativecommons.org/licenses/by/4.0/
+  text: '>-This work is licensed under a Creative Commons Attribution 4.0 International License.'
   type: open-access
-container-title: forTEXT Heft
+container-title: forTEXT
 type: article-journal
-volume: 2
-issue: 13
-date: 
 article:
-  doi: 10.48694/abc
+  doi: 
+  volume: 3
+  issue: 1
+  issuetitle: Textannotation in der Hochschullehre
+  beitragstyp:
+  date:
+    iso-8601: 
+    year: 2026
+
+history:
+  received: 
+    iso-8601: 
+    year: 2026
+  accepted: 
+    iso-8601: 
+    year: 2026
 reviewers:
 - name:
   email:
+  orcid:
 - name:
   email:
+  orcid:
