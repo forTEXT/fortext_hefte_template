@@ -25,7 +25,7 @@ Die Guidelines zur Erstellung ihrer Beiträge finden Sie auf der forTEXT Seite u
 Der Ordner [`submission_template`](submission_template) beinhaltet Vorlagen für die Bestandteile Ihrer Einreichung. Um diese zu nutzen, können Sie die Dateien herunterladen und mit eigenen Inhalten füllen. 
 Verwenden Sie... 
 * für den Beitragstext die Datei [`text.docx`](submission_template/text.docx),
-* für die SItzungsübersicht bzw. den Ablaufplan [`table.md`](submission_template/table.md) oder [`table.csv`](submission_template/table.csv), (abhängig davon, ob Sie mit CSV- oder Markdown-Datei arbeiten möchten),
+* für die SItzungsübersicht bzw. den Ablaufplan [`table.csv`](submission_template/table.csv),
 * für die Bibiographie [`bibliography.json`](submission_template/bibliography.json), [`bibliography.bib`](submission_template/bibliography.bib) oder eine äquivalente Datei mit dem Suffix '.bibtex',
 * für die Autor\*innen-Metadaten die Datei [`author_meta.yaml`](submission_template/author_meta.yaml).
 
@@ -42,7 +42,7 @@ Die Einreichungen der Lehrkonzepte müssen dem folgenden Aufbau folgen:
 2. Einführungstext
 3. Beschreibung des Gesamtablaufs
 4. Sitzungsübersicht bei Semesterplänen oder Ablaufübersicht bei kleineren Lehrformaten wie Blockseminaren oder Workshops (als Tabelle)
-5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema Textannotation
+5. Detaillierte Darstellung der Sitzungen bzw. Einheiten zum Thema der Ausgabe
 6. Reflexion des Lehrkonzepts: Gelungene Ansätze und Herausforderungen (ggf. mit Ideen oder Lösungsvorschlägen zur Überwindung der genannten Herausforderungen)
 7. Literaturverzeichnis, das die in der Veranstaltung genutzten Primär- und Sekundärtexte und evtl. weitere Referenzen enthält
 8. Optional: Anhänge (z.B. Handouts, Präsentationen, Lösungsvorschläge, Evaluationen)
@@ -60,19 +60,28 @@ Einreichungen sind sowohl für ganze Semesterpläne als auch für kleinere Lehrf
 - Reflexion: maximal 1200 Wörter
 
 #### Sprache und Tempus
+Es werden ausschließlich deutschsprachige Beiträge akzeptiert.
 Alle Lehrkonzepte sollen sich zur Nachnutzung eignen und Instruktionscharakter haben. Bitte verfassen Sie Ihren Beitrag daher im Präsens. Den Reflexionsteil und einzelne Punkte der Rahmenbedingungen in der Einleitung (bspw. wann und wo das Lehrkonzept bereits durchgeführt wurde) können Sie im Perfekt darstellen.
 Achten Sie insgesamt bitte darauf einfache Satzstrukturen zu nutzen, Passivkonstruktionen zu vermeiden, Fachbegriffe und Abkürzungen bei Erstnennung zu erklären und Begriffe einheitlich zu verwenden (z.B. durchgängig “Seminar” oder “Lehrveranstaltung”). 
 
+Nutzen Sie bitte das Gendersternchen (\*).
 
 ## Abgabeformate und Formatierungshinweise
 
+Hinweis: Bitte ändern Sie die im Template vorgegebenen Dateinamen nicht!
+
 #### Artikeltext
 
-Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Docx-Datei mit dem Namen ```text.docx``` (siehe [Template](submission_template/text.docx) unter der jeweiligen Überschrift einzufügen. 
+Ein Abstract, der Einführungstext, der Gesamtablauf, die Sitzungsbeschreibungen sowie der Reflexionstext sind als Fließtexte in der Docx-Datei mit dem Namen ```text.docx``` (siehe [Template](submission_template/text.docx) unter der jeweiligen Überschrift einzufügen.
+Sie können die Überschriften der einzelnen Abschnitte anpassen und Subüberschriften beliebig hinzufügen. Ändern Sie jedoch bitte nicht die Anzahl der vorgegebenen Level-1-Überschriften.
+
 
 #### Tabellarische Sitzungsübersicht
 
-Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im Markdown- *oder* CSV-Format ein (```table.csv``` oder ```table.md```). Ändern Sie weder Spaltenanzahl noch -namen. Die Sitzungsübersicht wird von der technischen Redaktion im Zuge einer ersten formalen Prüfung in den Artikeltext eingefügt.
+Die Sitzungsübersicht reichen Sie als Tabelle in einer separaten Datei im CSV-Format ein (```table.csv```). Ändern Sie weder Spaltenanzahl noch -namen. Bitte achten Sie darauf, die Tabelle mit dem Encoding UTF-8 zu speichern. 
+Wenn Sie die Tabelle in einem Code-Editor bearbeiten, müssen Zellen durch ein Komma (",") voneinander getrennt werden. 
+Aufzählungen innerhalb einer Zelle können Sie durch ein Semikolon (";") umsetzen.
+
 Inhaltliche Guidelines zur Verfassung Ihrer Beiträge finden Sie auf dieser Seite unter [Guidelines - Inhalt](#guidelines---inhalt).
  
 
@@ -122,11 +131,6 @@ Weitere Hinweise zur Generierung von Citekeys in Citavi bzw. Zotero:
 Optional können Sie Ihrer Einreichung entworfene Handouts, Präsentationen, Aufgabenvorschläge, Evaluationen etc. beifügen. Alle optionalen Anhänge geben Sie als PDF-Datei im Ordner “anhänge” ab. Bitte erstellen Sie für jeden Anhang einen Eintrag in der [```author_meta.yaml```](submission_template/author_meta.yaml), indem Sie in dem dafür vorgesehenen Bereich den Titel des Anhangs, die Autor*innen-Namen und das Jahr eintragen. Um im Fließtext auf Anänge zu verweisen verwenden Sie bitte eine Notation der Art "(siehe Anhang <Titel des Anhangs>)". 
 Sollten Sie im Fließtext auf Abbildungen verweisen, tun Sie dies bitte im Markdownstil und laden Sie diese als PNG-Dateien als Anhänge hoch. Für Abbildungen sind keine Einträge in Ihrem Literaturverzeichnis nötig.
  
- 
-#### Markdown-Syntax
-
-Bitte beachten Sie, dass alle Formatierungen im Markdowns-Stil erfolgen müssen. Für die Arbeit mit Markdown-Dokumenten empfehlen wir die Verwendung eines Code-Editors wie beispielsweise Pycharm oder Visual Studio Code. Die meisten Code-Editoren unterstützten Markdownsyntax. Gegebenenfalls können Sie Markdown-Extensions für Ihren Editor herunterladen. Ein webbasierter Markdown-Editor, mit dem Sie sich mit der Markdown-Syntax vertraut machen können, ist beispielsweise StackEdit (https://stackedit.io/app#). Hilfreiche Erläuterungen zur Markdown-Syntax finden Sie auch hier: https://www.markdownguide.org/basic-syntax/.
-
 
 #### Verweise zu Textabschnitten
 Für textinterne Verweise wie beispielsweise Verlinkungen zu Textabschnitten bitten wir Sie, diese gemäß den Konventionen der Markdown-Syntax zu erstellen. Für Textstellen wie “siehe Abs. Einführungstext”, die auf andere Abschnitte verweisen, können Sie Anker erstellen, indem Sie die zu verlinkende Textstelle in eckige Klammern (“[]”) setzen und das Ziel der Verlinkung in runde Klammern (“()”) setzen. In der Verlinkung werden Überschriften als sogenannte "Anker" referenziert, die durch ein vorangestelltes # und den Überschriftentext identifiziert werden.
@@ -262,10 +266,10 @@ _Beispiele:_ “Visualisierungsmöglichkeiten von CATMA lernen”, “Texte im T
 Zählen Sie die Inhalte auf, die die Studierenden bis zu dieser Sitzung/Einheit vorbereiten sollen (Recherche, Lesen, Videos anschauen). Benennen Sie diese Inhalte explizit, indem sie Citekeys aufführen 
 Beispiele: “Lesen des Kapitels 2.3. zu Narratologie in @fortextetal2026”, “Kontoeinrichtung auf catma.de” 
 * <ins>Spalte 7 (Lehrvorbereitung)</ins>  
-Zählen Sie Inhalte wie (weiterführende) Literatur oder Webseiten auf, die für Lehrende für diese Sitzung relevant sind. Zählen Sie diese durch Citekeys und/oder verlinkte Schlagwörter nach Markdownsyntax auf.
+Zählen Sie Inhalte wie (weiterführende) Literatur, Webseiten oder notwendige Vorbereitungen auf, die für Lehrende für diese Sitzung relevant sind. Zählen Sie diese durch Citekeys und/oder verlinkte Schlagwörter nach Markdownsyntax auf.
 Beispiele: “@fortext2026, @hander2026”, “\[Podiumsdiskussion](www.annolehren345.de)”
 * <ins>Spalte 8 (Arbeitsauftrag)</ins>  
-Beschreiben Sie die Auf- bzw. Abgabe, die in dieser Sitzung/Einheit aufgetragen wird und nennen Sie die Sitzungsnummer/-einheit, zu welcher diese fällig ist. Nummerieren Sie die Abgabe/Aufgabe gegebenenfalls.
+Beschreiben Sie die Auf- bzw. Abgabe, die in dieser Sitzung/Einheit aufgetragen wird und nennen Sie die Sitzungsnummer/-einheit, zu welcher diese ggf. fällig ist. Nummerieren Sie den Arbeitsauftrag gegebenenfalls.
 Die ausführliche Aufgabenstellung können Sie unter Punkt 4 (“Sitzungsbeschreibungen”) in der detaillierten Sitzungsbeschreibung aufführen.
 _Beispiele:_ “Abgabe 1: Textzusammenfassung bis Sitzung 9”
 
